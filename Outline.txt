@@ -1,0 +1,32 @@
+Title
+
+Abstract
+
+Intorduction
+Broader Context.
+Relate to other relevent research.
+Why is it important in plain language.
+Major Acheivements, what we did and major limitations.
+State technical methods plainly.
+Descibe the organisation of the paper.
+
+
+Body of Paper
+Describe Finding is an organised and structured way. 
+Figures and plots
+Think of informative nformative headings/easy to orientate.
+
+Conclusion
+Give closure of articel
+Summary of major results.
+prospects for futre extensions and possible applications, relevance to other works, fields.
+
+
+
+MAJOR POINTS OF DESCRIPTION FOR MODEL.
+
+
+
+OUTLINE OF ASSUMPTIONS USED FOR THE MODEL.
+
+
