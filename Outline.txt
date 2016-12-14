@@ -1,6 +1,7 @@
-Title
+Title: Photophysics of Nitrogen Vacancy centres in Nanodiamonds
 
 Abstract
+
 
 Intorduction
 Broader Context.
@@ -24,9 +25,13 @@ prospects for futre extensions and possible applications, relevance to other wor
 
 
 MAJOR POINTS OF DESCRIPTION FOR MODEL.
+Standadize notation for each energy level and for each rate.
+Then Write the equations of fluorescence.
+
 
 
 
 OUTLINE OF ASSUMPTIONS USED FOR THE MODEL.
 
+Need to find references for every parameter that I used.
 
