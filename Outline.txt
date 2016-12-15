@@ -6,7 +6,7 @@ Abstract
 Intorduction
 Broader Context.
 Relate to other relevent research.
-Why is it important in plain language.
+Why is it important in plain language:
 Major Acheivements, what we did and major limitations.
 State technical methods plainly.
 Descibe the organisation of the paper.
@@ -15,13 +15,56 @@ Descibe the organisation of the paper.
 Body of Paper
 Describe Finding is an organised and structured way. 
 Figures and plots
-Think of informative nformative headings/easy to orientate.
+Think of informative informative headings/easy to orientate.
+
+Parts of the Model.
+Current understanding of the NV centre under green excitation.
+Show ground and excited spin triplets as well as two singlet states.
+Spin conserving excitation:
+Fluorescence Lifetime, (2x in nanodiamonds compared to bulk):
+Spin Polarising Singlet state, Rates to singlet state:
+Spin Polarising Singlet state rate from ground singlet to ground triplet, some say all to ms = 0 some say it is more varied than that:
+If you use just these rates you can fit the fluorescence quite well and we have two fitting parameters to relate excitation and max counts:
+
+Whilst there is a non zero overlap between the zero-phonon line and wavelength for 780nm there may be stimulated emmision. Using the STED or thirld level model breaks down due to a few reasons. 
+30% of the NV's are in the NV0 configuration and we are collecting both NV0 and NV- fluorescence and this model does not describe the quenching of NV0.
+And secondly the best fits using this model does not work.
+
+In order to understand the fluorescence we investigated the effect of the NV0 and added the enery levels to our model.
+The NV- ionises towards the NV0 ground state through an Auger ionisation process:
+The NV0 recombines to the NV- by exciting an electron and recombining an electron from the valence band: (May include the singlets state ionisation)
+
+It is important to note here that green excitation light ~532nm light is used as it gives the largest ratio between the recombination rate and the ionisation rate leading to a ~70 spin polarisation.
+It has been observed that exciting with either 575nm or 637nm at the zero phonon line will push the charge state polarisation highly to the non pumped charge state.
+
+We can assume that the repump into the ground triplet of the NV- state must happen on fast timescales otherwise we would not observe this larger quenching for lower green powers.
+
+
+Using higher than 575nm does not excited either the NV0 or NV- and so charge state transfer can not occur and has not been probed. 
+Whilst the >575nm laser cant excite the NV0 transition there is no reason why it can not excite the electron into the NV0 from the valance band and recombine it into NV-.
+
+In this way it is possible for the longer wavelenths to contribute to another ionisation, recombination process as long as there is another laser exciting the transition:
+
+All of these effects were investigated in an array of models and an Aikike statistical criteria was used to identify the model with the highest liklihood.
+
+From here it appears that we can have a few things. Look into the supplementary material for each model anf their liklihoods.
+
+Interestingly the model that showed the highest likelhood function was model 13 that showed a 50:50 recombination process with a 100% ms=0 rate that whilst were unconstrained values
+agreed strongly with the current understanding of the NV centre. Additionally there was a spin dependant ionisation process with ~10x higher rate from +-1 than from zero:
+??? Could be explained by 10x increase in dephasing observe when NV- is in its excited state.
+From the rates one can also investigate the fitted spin and charge state polarisations. These were ~97% and ~70% which agree with are consistent with previous measurements
+
+As the NIR laser is increased the charge state of the NV is flipping faster and faster losing the fluorescence from the nanodiamond.
+
+
+Need to validate the 1.8 between NV0 and NV-
+
 
 Conclusion
 Give closure of articel
 Summary of major results.
 prospects for futre extensions and possible applications, relevance to other works, fields.
-
+Increase in STED by manipulating spin into the +-1 spin state.
 
 
 MAJOR POINTS OF DESCRIPTION FOR MODEL.
