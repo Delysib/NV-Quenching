@@ -4,6 +4,111 @@ Abstract
 
 
 Intorduction
+
+
+
+Diamond colour cetres are flourescent impurities in diamond.
+The NV can have two stable charge states NV- and NV0, with photo-induced interconversion of these two states.  
+The Nitrogen Vacancy centre in diamond is an intesivly studied material that has shown a wide range of applications in both Physics and Biology due to it's high stability and interesting optical properties.
+Biologists have used them extensivly for biolabelling and imaging of internal biological structures. The surface of nanodiamonds can be functionalised and internalised by cells without toxic effects. Once on the target they can be imaged by using the unique optical properties of the embedded defect. (Carlo's paper?)
+Meanwhile, Physisits have been investigating their uses in wide range of nanoscale sensing and quantum sensing. By exploiting the quantum mechanical interactions of the defects internal spin state the NV centre has been used to observe quantum behaviour at room temperature, providing a platform to study a wide variety of quantum manipulation protocols.(Jelezko 2006 Single defects in diamond:a review) 
+In addition, using the NV centres internal spin state they have been used to sense magnetic fields and electric fields with high sensitivity and resolution. (???ref)
+Mention single photon production. 
+
+Diamond nanocrystals are chemically very robust, nontoxic, and easy to functionalsed for biological targeting. This is good for bio
+
+For physics the interesting points of interest arise soley from the NV- charge state
+
+NV- charge state is the intersiting charge state whilst NV0 is mostly ignored.
+Explain ODMR and why it is important for quantum stuff and all physics things.
+
+The flourescent intensity depends on the defects internal magnetic spin state leading to an optical readout of the defects local magnetic field stength.
+
+Sensing is performed by monitoring shifts in the ODMR signal in response to an external magnetic field or microwave irradiation (ODMR).
+This ODMR signal is affected by and can hence measure shifts by many means including magnetic and electric fields, temperature, spatial orientation, strain and pressure.
+
+
+
+
+Now it has long been said that the NV centre is 'extremely robust, with no bleaching or blinking under normal conditions' (??? Nitrogen-Vacancy Centres in Diamond: Nanoscale Sensors for physics and biology) however more generally this is not true and quenching effects
+have been observed whenever more than one probe laser has been used (??? optical transitor paper, others),(??? Can I say this). 
+This has limited the NV centre from more elaborate applications in which it can be used in conjuction with other systems.
+It is interesting to note that this quenching effect, by using an ~780nm has been observed and described as a stimulated emmision (STED) process.
+In the field it has recently become aware that it is not a true STED process, however the effect of the process still gives the effect desired and no satisfactory explanation has yet been provided.
+
+Talk about the charge state and that people only like NV-.
+
+Descrease in Fluorescence has been observed and explained by variety of things (Look at Romain Quidant Fast optical modulation transistor paper for types and references)
+In contrast to a few of these mechanisms we are in a non resonant continuous-wave regime of a few 10s of milliwats and cannot activate the preivious mechanisms.
+
+An intergral component in many of these applications and effects above is to have a strong conversion of the NV's into the NV- charge state rather than the NV0 charge state.
+The excitation photophysics was investigated in the region from 450nm-610nm and the optimal excitation wavelength for the highest steady-state NV- population was stated to be around 510nm-540nm. (??? \ref Photo-induced ionisation dynamics of the nitrogen vacancy defect in diamond investigated by single-shot charge detection).
+For many applications an excitation within this wavelength was used and the effects of the NV0 charge state were ignored.
+
+
+
+In this paper we investigate the quenching effects of the NV centre fluorescence in order to provide insight into the charge and spin state photo-dynamics.
+Our process is to measure the quenching dynamics of the NV centre under steady state illumination and using established physics of the NV centre, develop a rate equation models to describe the photo-physics of the system.
+Using this model various assumptions are analysed to determine their validity and the most likely model that represents the photo-physics is detrmined by the Aikike information criteria. 
+We beleive this new rate equation model has now identified the underlying physics leading to the quenching of fuorescence of NV centres and it now allows us to predictivly simulate and optimise the effect, which is interesting to many applications based on NV centres.
+For example by applying the right sequence we can increase the spin and charge state polarisation of the NV centre leading to an enhancement of STED like imaging and an enhancement of state preparation in quatum technologies based on NV centres.
+
+
+Experiment:
+In out experiment, ???100nm nanodiamonds are dispersed on a glass coverslip placed on the sample plane of a custom build scanning confocal microscope.
+The NV centres are pumped with a 532nm continuous wave laser after focusing through an oil immesion objective lense 1.2 NA ???.
+The 780nm laser and 1042nm lasers are combined and then superimposed with the 532nm laser before the objective lens. 
+The flourescence is collected through the same objective and sent to an avalanche photodiode ???insert figure of setup.
+
+We start by collecting a saturation curve of the fluorescence of the NV centre.
+We then investigate the power dependance of the fluorescence on each of the NIR lasers for ??? powers of the green. 
+We place a neodinium magnet ~1mm above the sample plane of the confocal microscope in order to mix the spin state of the NV- charge state as described in the model section. Once placed we repeated the above set of measurents.
+This was repeated for x??? nanodiamonds. The NIR power dependance on the fluorescence of ND??? at ???uW of 532nm plotted in Fig a. (one with most quenching) showns that the NIR laser can supress fluorescence over ???%.
+Describe how we will display the plots of the fluorescence and describe some of the phyhsics. 
+Probably this;
+[(fig a),(fig b)]
+[(fig b),(fig c)]
+[(fig d),(fig e)]
+fig a = two traces on one ND highest quenching
+fig b = Saturation curve Mag/No Mag
+fig c/d = 780nm quench NoMag/Mag
+fig e/f = 1042 quench NoMag/Mag
+
+
+Model:
+The energy level diagram of the two NV centre charge states and corresponding transisiton rates can be observed in figure???.
+The photo-physcis of the isolated NV- charge state has been well studied.
+It consists a ground trplet state 3A and an excited triplet state 3E, as well as two metastable singlet states 1E and 1A. 
+The ground and excited triplet states can be further split into three spin levels, ms = 0 and the degenerate ms = \pm1 at zero magnetic field.
+The energy difference between the spin sublevels is D=2.87GHz for the ground state and D=1.42 for the excited state, where D is the zero field splitting. 
+The tranisition rate between m_s=0 and ms=\pm1 sublevels is given by the spin-lattice relaxation T1 and is \GammaSF = ~6ms at room temperature (Jarmola Temperature and magnetic field dependant longitudinal spin relaxation...).
+This rate can be be increased dramatically by applying a large magnetic field across the transition as shown in figure ???. 
+The magnetic field splits the ms=\pm1 spin levels due to zeeman splitting and above a certain magnetic field strength the ms=-1 overlaps with the ms=0 spin level allowing for large transisiton rates depolarising the spin state.
+The main triplet 3A-3E transition has a resonant wavelelngth of 637nm (zero phonon line) and can be efficiently excited with spin conservation at most wavelengths below 640nm.
+We excite this tranisiton at a wavelength of 532nm and the excitation rate increases linearly with incident power.
+The radiative lifetime of the excited state is 13ns for NV centres in bulk diamond (find own refs or from review paper) and approximatly \Gamma_blah = 25ns for NV centres in nanodiamonds (Same for refs).
+Only a few percent of the Fluorescence are emmited at the zero phonon line, and most fluorescence appears in the phonon side bands between 630 and 800nm as shown in figure ???(Fluorescence of independant NV0 and NV-).
+The excited triplet states can also decay to the excited singlet state, the rate from the ms=\pm1 excited triplet state is ???ns, whereas the rate from the ms=0 excited triplet state is almost an order of magnitude smaller at ???ns. 
+Whilst not completly understood why there is a large discrepancey her it is noteworthy that this discrepancy is what leads to the difference in flourescence intensity of each spin state which leads to the possibility of ODMR measurements and spin polarisation effects.
+The lifetime of the excited singlet state is \Gamma_blah = 1ns and has been shown to emit fluorescence at 1042nm.
+The loger lived ground metastable state has a lifetime of \Gamma_blah = ???ns and decays into the ground the triplet spin state.
+It was commonly beleived that this population decayed only into the ms=0 spin state leading to the spin state polarisation observed in NV centres, however a recent paper has claimed that this ratio between ms=0 and ms=\pm1 is closer to 1.1-2 
+(read these for 1.1-2 \ref Robledo Spin dynamics in the opticla cycle of single NV centres in diamond, Tetienne Magnetic field dependant photodynamics of single NV defects in diamond:an application to...) however these neglect the effect of the NV0 charge state.
+
+The NV0 charge state has often been neglected and does not have the same rigourous study at the NV- charge state, however is a much simpler defect to investigate. 
+
+
+
+
+
+
+
+
+
+
+
+Crystal defects in diamond 
+
 Broader Context.
 Relate to other relevent research.
 Why is it important in plain language:
