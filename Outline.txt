@@ -62,7 +62,7 @@ The flourescence is collected through the same objective and sent to an avalanch
 
 We start by collecting a saturation curve of the fluorescence of the NV centre.
 We then investigate the power dependance of the fluorescence on each of the NIR lasers for ??? powers of the green. 
-We place a neodinium magnet ~1mm above the sample plane of the confocal microscope in order to mix the spin state of the NV- charge state as described in the model section. Once placed we repeated the above set of measurents.
+We place a neodinium magnet ~0.5mm above the sample plane of the confocal microscope in order to mix the spin state of the NV- charge state as described in the model section. Once placed we repeated the above set of measurents.
 This was repeated for x??? nanodiamonds. The NIR power dependance on the fluorescence of ND??? at ???uW of 532nm plotted in Fig a. (one with most quenching) showns that the NIR laser can supress fluorescence over ???%.
 Describe how we will display the plots of the fluorescence and describe some of the phyhsics. 
 Probably this;
