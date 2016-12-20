@@ -1,0 +1,14 @@
+ref1 nitrogen-vacancy lattice pair embedded along the [111] axis of a diamond
+ref2 photo-induced interconversion between these two states
+ref3 find a bunch biolabelling and imaging of internal biological structures using NV-s
+ref4 Functionalise surface and image (Carlos paper?)
+ref5 wide range of nanoscale sensing and quantum sensing
+ref6 observe quantum behaviour at room temperature (Jelezko 2006 Single defects in diamond:a review) 
+ref7 Photo-induced ionistation dynamics of the NV defect in diamond investigated by single shot charge state detection.
+ref8 Nitrogen-Vacancy Centres in Diamond: Nanoscale Sensors for physics and biology
+ref9 All the quenching papers
+ref10 STED PAPer
+
+???1 Description of quenching described by bunch of things which are stated in Romain, Fast optical modulation transistor paper
+???2 size and type of nanodiamonds
+???3 x.xNA, Brand, type immersion objective lens
