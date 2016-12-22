@@ -107,8 +107,10 @@ Only a few percent of the Fluorescence is emmited at the zero phonon line, and m
 Interesting excerpt from Doherty 'The Nitrogen Vacancy centre in Diamond'
 'It was recently discovered that NV0 does, however, exhibit an EPR signal under continuous optical illumination [86].
 This EPR signal has been attributed a long lived spin quartet excited state (4A2) that is populated by non-radiative decay from the optically excited 2A [86]. 
-No ODMT or optical readout of the NV0 quartet spin state have been demonstrated to date.
+No ODMR or optical readout of the NV0 quartet spin state have been demonstrated to date.
 Yet, the EPR signal strength has been observed to increase with optical excitation intensity, indicating an optically dependant spin-polarisation of 4A2 [86], albeit via a very different process to that which occurs in NV-.
+
+
 
 To convert between the two charge states we need to examine both the Ionisation process from NV-->NV0 and  the Recombination process from NV0 to NV-.
 Ionisation from NV- -> NV0 occurs in a two step process.
@@ -208,6 +210,10 @@ As the NIR laser is increased the charge state of the NV is flipping faster and 
 
 
 Need to validate the 1.8 between NV0 and NV-
+Need to mention both Q efficiencies close to 1
+
+
+Check Recomb rate, if it is ~71% of excitation rate we have a winner and it agrees with PRL optically controlled switching/ charge starte transfer paper
 
 
 Conclusion

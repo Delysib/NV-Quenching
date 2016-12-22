@@ -8,6 +8,38 @@ ref7 Photo-induced ionistation dynamics of the NV defect in diamond investigated
 ref8 Nitrogen-Vacancy Centres in Diamond: Nanoscale Sensors for physics and biology
 ref9 All the quenching papers
 ref10 STED PAPer
+ref11 Consists of $^3A$ and an excited triplet state $^3E$, as well as two metastable singlet states $^1E_1$ and $^1A_1$
+ref12 2.88Ghz and 1.42Ghz Doherty Review paper
+ref13 T1 = ~6ms (Jarmola Temperature and magnetic field dependant longitudinal spin relaxation...)
+ref14 Increased spin mixing due to magnet
+ref15 ZPL at 637nm and can be excited with most wavelengths below 640nm
+ref16 13ns in Bulk (find own refs or from review paper)
+ref17 25ns in ND
+ref18 Rates to singlet level, From 2 new doherty papers
+ref19 1ns excited singlet level
+ref20 observation of 1042nm fuorescence
+ref21 15ns Fuorescece, Confirm value
+ref22 1.1-2 ratio (read from pair of doherty papers witch refrences \ref Robledo Spin dynamics in the opticla cycle of single NV centres in diamond, Tetienne Magnetic field dependant photodynamics of single NV defects in diamond:an application to...) however these neglect the effect of the NV0 charge state.
+ref23 2A 2E ZPL 575nm and excite most wavelengths below 575nm
+ref24 Electron Paramagnetic resonance studies...neutral NV in diamond Felton [86]
+ref25 ratio of excitation cross sections (Photo ionisation of the nitrogen vacancy centre in diamond.. 
+ref26 fluorescence lifetime NV0, 19x2ns. Did i double this in the same way as I did for NV-?
+ref27 metastable spin quartet $^4A_2$ which was measured though an electronic parametric signal
+ref28 Ionisation Process.
+ref29 Recombination Process.
+ref30 Recombination being a Spin Depolarising process 
+ref31 optimal wavelength for excitation paper.
+ref32 Recombination due to substitutional Nitrogen
+ref33 1.7eV bulk Ns ionisation 1.6eV ND
+ref34 Quenching due to true STED
+ref35 Quenching from extra energy level.
+
+
+
+ref Extra state having negligilbe effect.
+
+
+
 
 ???1 Description of quenching described by bunch of things which are stated in Romain, Fast optical modulation transistor paper
 ???2 size and type of nanodiamonds
