@@ -33,6 +33,7 @@ ref32 Recombination due to substitutional Nitrogen
 ref33 1.7eV bulk Ns ionisation 1.6eV ND
 ref34 Quenching due to true STED
 ref35 Quenching from extra energy level.
+ref36 10x stronger dipole for \pm1
 
 
 

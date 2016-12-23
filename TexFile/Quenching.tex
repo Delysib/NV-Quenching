@@ -51,7 +51,7 @@ In our experiment, (???2) type and size nanodiamonds are dispersed on a glass co
 \subsection{Data Collection}
 We start by collecting a saturation curve of the fluorescence of the NV centre. We then investigate the power dependance of the fluorescence on each of the NIR lasers for ??? powers of the green. We place a neodymium magnet ~0.5mm above the sample plane of the confocal microscope in order to mix the spin state of the NV- charge state as described in \S model. Once placed we repeated the above set of measurement. This was repeated for x??? nanodiamonds. The NIR power dependance on the fluorescence of ND??? at ???uW of 532nm plotted in Fig a. (one with most quenching) shows that ??mW of NIR laser can suppress fluorescence over ???\%.
 
-\begin{figure}[t]
+\begin{figure}[H]
   \centering
   \includegraphics[width=0.5\textwidth]{Data.png} 
  \caption{\textbf{Experimental data.} \textbf{a.} This is the data swap a and b???} \label{FigData}
@@ -64,12 +64,12 @@ We start by collecting a saturation curve of the fluorescence of the NV centre. 
 \subsection{NV$^-$}
 The energy level diagram of the two NV centre charge states and corresponding transition rates can be observed in Fig. \ref{FigEnergyLevels}.
 
-\begin{figure}[t]
+\begin{figure}[H]
   \centering
   \includegraphics[width=1\textwidth]{NVjpg.jpg} 
- \caption{\textbf{Experimental data.} \textbf{a.} Enery Level diagram, need to change when I have the final model.} \label{FigEnergyLevels}
+ \caption{\textbf{Experimental data.} \textbf{a.} Energy levels rates and notation} \label{FigEnergyLevels}
 \end{figure}
-
+\todo{I have include singlet level ionisation in this image but haven't added it to my Matlab code. Don't particularly want to add 2 rates one for each singlet state. If no cycling is observed with 1042nm. I am tempted to compress singlet states into a single energy level since lifetime of excited<<lifetime of ground. Additionally I have not included a STED like mechanism for the NV$^0$ charge state which I probably should do..???}
 
 
 The photo-physcis of the isolated NV- charge state has been well studied and we utilise the established six state model to describe its intrinsic dynamics that includes it internal spin state. It consists a ground triplet state $^3A$ and an excited triplet state $^3E$, as well as two metastable singlet states $^1E_1$ and $^1A_1$ ref11???. The ground and excited triplet states can be further split into three spin levels, $m_s=0$ and $m_s=\pm1$ which are degenerate at zero magnetic field. The energy difference between the spin sublevels $m_s=0$ and $m_s=\pm1$ is $D=\SI{2.87}{GHz}$ for the ground state and $D=\SI{1.42}{GHz}$ for the excited state, where D is the zero field splitting ref12???. The transition rate between $m_s=0$ and $m_s=\pm1$ sublevels is given by the spin-lattice relaxation $T_1$ and is $\Gamma_{g^Tg^T} = ~\SI{6}{ms}$ at room temperature ref13???. This spin mixing rate can be increased dramatically by applying a large magnetic field in the vicinity of the NV centre ref14???.
@@ -83,7 +83,7 @@ The main triplet $^3A-^3E$ transition has a Zero Phonon line of 637nm and can be
  \caption{\textbf{Experimental data.} Fluoreschece profiles of NV charge states .} \label{FigFluoro}
 \end{figure}
 
-The excited triplet states can also decay to the excited singlet state, the rate from the $m_s=\pm1$ excited triplet state is $\Gamma_{e^T_{\pm1}e^S} = 2\pi\times9.4\times10^6\SI{}{GHz} = \SI{16.9}{ns}$, whereas the rate from the $m_s=0$ excited triplet state is almost an order of magnitude smaller at $\Gamma_{e^T_{0}e^S} = 2\pi\times1.8\times10^6 \SI{}{GHz} = \SI{88.4}{ns}$ ref18???. Whilst it not completely understood why there is a large discrepancy between these decay channels it is noteworthy that it is this discrepancy that leads to many of the interesting optical properties of the NV centre. It leads to a difference in fluorescence intensity between the two excited spin states which in turn leads to the possibility of ODMR measurements providing the mechanism for an all optical readout of the centres internal spin state. The excited singlet state lifetime is then $\Gamma_{e^Sg^S} = \si{1}{ns}$ ref19??? which has been shown to emit fluorescence at a ZPL of $\SI{1042}{nm}$ ref20???. The longer lived ground metastable state has a lifetime of $\Gamma_{g^Sg^T} = \SI{150}{ns}$ and decays into the ground the triplet spin state ref21???. It was commonly believed that this population decayed only into the $m_s=0$ spin state leading to the spin state polarisation observed in NV centres, however a recently this is being challenged and it has been claimed that the decay into the ground triplet has a ratio closer to $\frac{m_s=0}{m_s=\pm1} = 1.1-2$ ref22. 
+The excited triplet states can also decay to the excited singlet state, the rate from the $m_s=\pm1$ excited triplet state is $\Gamma_{e^T_{\pm1}e^S} = 2\pi\times9.4\times10^6\SI{}{GHz} = \SI{16.9}{ns}$, whereas the rate from the $m_s=0$ excited triplet state is almost an order of magnitude smaller at $\Gamma_{e^T_{0}e^S} = 2\pi\times1.8\times10^6 \SI{}{GHz} = \SI{88.4}{ns}$ ref18???. Whilst it not completely understood why there is a large discrepancy between these decay channels it is noteworthy that it is this discrepancy that leads to many of the interesting optical properties of the NV centre. It leads to a difference in fluorescence intensity between the two excited spin states which in turn leads to the possibility of ODMR measurements providing the mechanism for an all optical readout of the centres internal spin state. The excited singlet state lifetime is then $\Gamma_{e^Sg^S} = \si{1}{ns}$ ref19??? which has been shown to emit fluorescence at a ZPL of $\SI{1042}{nm}$ ref20???. The longer lived ground metastable state has a lifetime of $\Gamma_{g^Sg^T} = \SI{150}{ns}$ and decays into the ground the triplet spin state ref21???. It was commonly believed that this population decayed only into the $m_s=0$ spin state leading to the spin state polarisation observed in NV centres, however a recently this is being challenged and it has been claimed that the decay into the ground triplet has a spin state ratio closer to $\frac{m_s=0}{m_s=\pm1} = 1.1-2$ ref22???. 
 
 \subsection{NV$0$}
 
@@ -96,7 +96,7 @@ To convert between the two charge states we need to examine both the Ionisation 
 \subsubsection{Ionisation}
 Ionisation from NV- to NV0 occurs in a two step process as shown in Fig. \ref{FigChargeConversion}.
 
-\begin{figure}[t]
+\begin{figure}[H]
   \centering
   \includegraphics[width=1\textwidth]{ChargeConversion.png} 
  \caption{\textbf{Charge State Conversion Processes.} \textbf{a,} Ionisation from NV$^-$ to NV$^0$ \textbf{b,} Recombination process from NV$^0$ to NV$^-$ figure of ionisation and recombination processes with the quadratic dependence} \label{FigChargeConversion}
@@ -126,30 +126,42 @@ In order to determine the intrinsic photophysics of our nanodiamonds we develope
 
 The populations of the energy levels can be solved under steady state conditions and the fluorescence intensity is given by,
 \begin{equation}
-\SI{}{Fluorescence} = \left(\rho_{e^{T}_\pm}\times\Gamma_{e^T_{\pm}g^T_{\pm}} +\rho_{e^{T}_0}\times\Gamma_{e^T_{\pm}g^T_{\pm}}\right)+\left(\rho_{e^Z}\times\Gamma_{e^Zg^Z}\right)\times\SI{}{\sigma},
+\SI{}{F} = \left(\rho_{e^{T}_\pm}\times\Gamma_{e^T_{\pm}g^T_{\pm}} +\rho_{e^{T}_0}\times\Gamma_{e^T_{\pm}g^T_{\pm}}\right)+\left(\rho_{e^Z}\times\Gamma_{e^Zg^Z}\right)\times\SI{}{\sigma},
 \label{EqnFluoro}
 \end{equation}
-where $\sigma$ is the ratio between the efficiency of collecting a NV$^0$ photon compared to an NV$^-$ photon, which depends on the fluorescence spectra and the collection window which are shown in Fig. \ref{FigFluoro} as well as the spectral response of the detector. This was calculated to be ??? for our ??? APD with a fluorescence window between $\SI{550}{nm}$ and $\SI{750}{nm}$.
+where F is the fluorescence intensity and $\sigma$ is the ratio between the efficiency of collecting a NV$^0$ photon compared to an NV$^-$ photon, which depends on the fluorescence spectra and the collection window which are shown in Fig. \ref{FigFluoro} as well as the spectral response of the detector. This was calculated to be ??? for our ??? APD with a fluorescence window between $\SI{550}{nm}$ and $\SI{750}{nm}$. For the saturation curves this value can be compared directly against the data with a single scaling parameter $C$, that is related to the effective number of NV centres and collection efficiency, whereas for the NIR quenching data the data can be compared directly by normalising to the fluorescence intensity with no NIR laser power,
+\begin{equation}
+\SI{}{Fluorescence\ Counts\ (norm}.) = \frac{F(I_{NIR})}{F(0)}.
+\label{EqnFluoroCounts}
+\end{equation}
 
-\section{Variety of Assumptions that could be made}
-Few questions that did not have good answers:
-STED only model
+\section{Unknown Questions and Assumptions }
+In developing the rate equation model there are three unanswered questions that will affect the photo-physics of the system that need to be investigated. For each question a variety of conjectures were developed in order to generate an array of sub-models. The group of sub-models are obtained by generating the complete set of permutations of the given conjectures. The models are then compared with each other using the Akaike Information Criteria, which provides a measure of the comparative likelihood of a model to fit the given data.
 
-Does the magnet affect the recombination rates, I can probably exclude this from analysis because I have an answer to why Xavi saw approx \%50 quenching, and you wouldn't really expect this anyways.
+The first question is to determine whether the STED like quenching mechanism itself can explain all of the photo-dynamics of the system or if it necessary to include the ionisation, recombination mechanism. Four permutations are investigated to fit the data; Using only a STED like mechanism which will inevitably ignore the NV$^0$ charge state, using a STED like mechanism as well as an ionisation and recombination process mediated only by the $\SI{532}{nm}$ excitation laser, using the STED like mechanism and the ionisation and recombination process mediated by both the $\SI{532}{nm}$ excitation laser and the NIR laser and lastly by leaving out the STED like process and using only the ionisation and recombination process mediated by both the $\SI{532}{nm}$ excitation laser and the NIR laser.
+Secondly, it is unclear how the electrons recombine into the into the NV$^-$ ground state from both the metastable state and from the NV$^0$ charge state, the traditional notion and our first conjecture is that the singlet rate decays only into the $m_s=0$ spin state and that the there is no favourable transition for the recombination process, for generality we also provide a case in which there is no limitation on either combination ratio. \todo{Optional:We are however assuming in both of these cases that the presence of a strong magnet field does not effect the energy level favourability of the ground triplet state and hence provide another case where the recombination ratios may change with the presence of the magnet. (I cam up with this effect to explain the \%50 quenching observed by Xavi and Matt due to only the magnet but I beleive that can now be explained without this mechanism. If you want some details about why I think you can actually get \%50 due to the magnet just ask me} Lastly, no investigation has been made into the spin dependency of the ionisation process. These energy levels already exhibit spin dependant rates to the metastable singlet state, and additionally there is a permanent dipole that is an order of magnitude larger for the $m_s = \pm1$ excited spin state than there is for the $m_s=0$ spin state which we believe has the potential to lead to a spin dependant ionisation process \ref36. As a result we do not want to limit our potential models to having only a spin independent ionisation process and hence provide two more cases; a completely spin independent case and a case where spin independent process has the same ratio for both the $\SI{532}{nm}$ and NIR laser. The sub-models were generated from these assumptions and fitted to the data. A summary of all of the various conjectures and sub-models as well as fitted parameters can be found in Tab. or Fig.
 
-I would expect \%50 recomb and all singlet going into ms=0 as assumption or open or varied with magnet
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.4\textwidth]{SubModels.png} 
+ \caption{\textbf{Charge State Conversion Processes.} \textbf{a,} Ionisation from NV$^-$ to NV$^0$ \textbf{b,} Recombination process from NV$^0$ to NV$^-$ figure of ionisation and recombination processes with the quadratic dependence} \label{FigSubModels}
+\end{figure}
 
-Is the ionisation spin dependant, the same for 532/780 or not at all?
+\todo{If I use the 1042nm laser I also have to include cycling of the transition}
 
 
-These are the models id compare
-\section{Aikike criteria}
-Compare models to determine the most likely
+%If they were only capturing NV- or mostly NV- (I Never got a good answer to this question from MAtt and Xavi) then due to a combination of the magnet mixing the spin state, which will give an \~\%30 quenching by it self, and then due to spin dependant ionisation this mixed spin state will lead to a higher Ionisation rate and hence a reduction in NV$^-$ charge state polarisation and reduction in Fuorescence.
+
+
+\section{Akaike Information Criteria}
+From the minimisation value we can do Akaike.
+Blah blah statistical analysis of models and assumptions.
+top model is blah, investigate it.
 
 \section{Discussion}
 Really look into the model that the Aikike has pointed out
 \section{Spin dependancy}
-Explain thie spin dependancy and anything else interesting the model picks ut that is unusual
+Explain the spin dependancy and anything else interesting the model picks ut that is unusual
 \section{Compare the spin state and charge state}
 The spin and charge state is interesting because it is completely unconstrained and give a pretty accurate answer.
 \section{Give other examples of how this model fits with data}
@@ -159,7 +171,7 @@ There are some physics papers with weird mechanisms that this model explains. Sh
 \section{Prospects for future work and impact}
 STED like imaging
 
-
+\todo{I Should think of an nice short name for ionisation and recombination process. Could simply use ionisation and recombination = I\&R?}
 
 \section{}
 
