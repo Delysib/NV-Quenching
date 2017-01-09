@@ -1,5 +1,7 @@
 ref1 nitrogen-vacancy lattice pair embedded along the [111] axis of a diamond
+	Optical Studies of the 1.945eV vibronic band in diamond.
 ref2 photo-induced interconversion between these two states
+	Optically controlled switching of the charge state of a single Nitrogen Vacancy centre in diamond at cryogenic temperatures.
 ref3 find a bunch biolabelling and imaging of internal biological structures using NV-s
 ref4 Functionalise surface and image (Carlos paper?)
 ref5 wide range of nanoscale sensing and quantum sensing
