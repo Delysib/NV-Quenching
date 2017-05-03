@@ -1,0 +1,265 @@
+%File containing all common commands used.
+% Declare that this style file requires at least LaTeX version 2e.
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{ORI_Group_style}[2014/14/08]
+
+%packages commonly used
+\RequirePackage{graphicx,enumerate,verbatim,bbold}
+\RequirePackage{amsmath,amssymb,amsthm,float,mathrsfs}
+\RequirePackage{dsfont}
+\RequirePackage[colorlinks]{hyperref}
+\RequirePackage[T1]{fontenc}
+\RequirePackage[utf8]{inputenc}
+\RequirePackage{lmodern}
+\RequirePackage{fancyhdr}
+
+%-------------------%
+%  Common commands  %
+%-------------------%
+
+%To introduce the namedlabel command, so when referenced, the label is named as desired.
+\makeatletter
+\def\namedlabel#1#2{\begingroup
+   \def\@currentlabel{#2}%
+   \phantomsection\label{#1}\endgroup
+}
+
+%quantum operators
+\newcommand{\braket}[2]{\langle {#1} | {#2} \rangle }
+\newcommand{\sandwich}[3]{\langle {#1} | {#2} | {#3} \rangle}
+\newcommand{\ket}[1]{| {#1} \rangle }
+\newcommand{\bra}[1]{\langle {#1} | }
+\newcommand{\com}[2]{\left[ {#1},{#2} \right]}
+\newcommand{\acom}[2]{\left\{ {#1},{#2} \right\}}
+\newcommand{\expect}[1]{\langle {#1} \rangle}
+\newcommand{\avg}[1]{\ensuremath{\langle #1 \rangle}}
+\newcommand{\ketbra}[2]{\left|{#1}\middle\rangle\middle\langle{#2}\right|}
+\newcommand{\kb}[2]{\left|{#1}\middle\rangle\middle\langle{#2}\right|} %for lazy me.
+\newcommand{\proj}[1]{|{#1} \rangle \langle {#1} | }
+\newcommand{\dagg}{^{\dag}}
+
+\newcommand{\adop}{\hat a^{\dagger}}
+\newcommand{\aop}{\hat a}
+\newcommand{\adin}{\hat a_\text{in}^{\dagger}}
+\newcommand{\ain}{\hat a_\text{in}}
+\newcommand{\adout}{\hat a_\text{out}^{\dagger}}
+\newcommand{\aout}{\hat a_\text{out}}
+\newcommand{\nop}{\hat n}
+\newcommand{\bdop}{\hat b^{\dagger}}
+\newcommand{\bop}{\hat b}
+\newcommand{\xop}{\hat x}
+\newcommand{\zop}{\hat z}
+\newcommand{\pop}{\hat p}
+\newcommand{\Hop}{\hat{H}}
+
+
+\newcommand{\sz}{\hat \sigma^{z}}
+\newcommand{\sx}{\hat \sigma^{x}}
+\newcommand{\sy}{\hat \sigma^{y}}
+\newcommand{\spl}{\hat \sigma^{+}}
+\newcommand{\smi}{\hat \sigma^{-}}
+
+%some common states
+\newcommand{\vac}{\ket{0}}
+\newcommand{\fock}{\ket{n}}
+
+%mathematical symbols
+\newcommand{\im}{\text{i}}
+
+% Greek letters
+\newcommand{\w}{\omega}
+\newcommand{\sig}{\sigma}
+\newcommand{\eps}{\epsilon}
+\newcommand{\kap}{\kappa}
+\newcommand{\ez}{\varepsilon_0}
+\newcommand{\one}{\mathds{1}}
+\newcommand{\id}{\mathbb{1}}
+
+%italics
+\newcommand{\eg}{\textit{e.g.}}
+\newcommand{\ie}{\textit{i.e.} }
+\newcommand{\etal}{\textit{et al.}}
+\newcommand{\hc}{{\rm H.c.}}
+\newcommand{\cc}{{\rm c.c.}}
+\newcommand{\via}{{\it via}}
+
+%useful abbrevations
+\newcommand{\pare}[1]{\left( {#1} \right)}
+\newcommand{\spare}[1]{\left[ {#1} \right]}
+\newcommand{\cpare}[1]{\left\{ {#1} \right\}}
+\newcommand{\ti}[1]{\tilde{{#1}}}
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end{equation}}
+\newcommand{\bea}{\begin{eqnarray}}
+\newcommand{\eea}{\end{eqnarray}}
+
+%some vectors
+\newcommand{\uevec}[1]{\vec{e}_{{#1}}}
+\newcommand{\vect}[3]{\begin{pmatrix}{#1}\\ {#2}\\ {#3}\end{pmatrix}}
+
+%cartesian
+\newcommand{\uex}{\bold{e}_{x}}
+\newcommand{\uey}{\bold{e}_{y}}
+\newcommand{\uez}{\bold{e}_{z}}
+
+%cylindrical / spherical
+\newcommand{\uerho}{\bold{e}_{\rho}}
+\newcommand{\uephi}{\bold{e}_{\phi}}
+\newcommand{\uetheta}{\bold{e}_\theta}
+\newcommand{\uer}{\bold{e}_r}
+
+% Fourier space
+
+\newcommand{\uek}{\bold{e}_k}
+\newcommand{\ekr}{e^{\im \kk \cdot \rr}}
+\newcommand{\emkr}{e^{-\im \kk \cdot \rr}}
+\newcommand{\ekpr}{e^{\im \kkp \cdot \rr}}
+\newcommand{\emkpr}{e^{-\im \kkp \cdot \rr}}
+\newcommand{\ewt}{e^{\im \omega t}}
+\newcommand{\emwt}{e^{-\im \omega t}}
+\newcommand{\rw}{(\rr,\omega)}
+\newcommand{\rt}{(\rr,t)}
+\newcommand{\rpw}{(\rr',\omega)}
+\newcommand{\kw}{(\kk,\omega)}
+\newcommand{\rrw}{(\rr,\rr',\omega)}
+\newcommand{\kkw}{(\kp, \kkp,\omega)}
+
+%common fractions
+\newcommand{\half}[1]{\frac{{#1}}{2}}
+\newcommand{\inv}[1]{\frac{1}{{#1}}}
+
+%mathematical functions
+\newcommand{\erf}{\textrm{erf}}
+\newcommand{\erfc}{\textrm{erfc}}
+\newcommand{\Tr}{\textrm{Tr}}
+\newcommand{\tr}{\textrm{tr}}
+\newcommand{\abs}[1]{\left |{#1} \right |}
+\newcommand{\abst}[1]{\abs{#1}^2}
+\newcommand{\mean}[1]{\left\langle{#1}\right\rangle}
+\newcommand{\sumpve}[1]{\sum_{{#1} = 0}^\infty}
+\newcommand{\sumall}[1]{\sum_{{#1} = -\infty}^\infty}
+\newcommand{\sumto}[2]{\sum_{{#1}=0}^{#2}}
+\newcommand{\atanh}{\textrm{arctanh}}
+ \newcommand{\sgn}[1]{\mathop{\mathrm{sgn}}(#1)}
+\newcommand{\e}[1]{e^{#1}}
+\newcommand{\ei}[1]{e^{\im #1}}
+\newcommand{\emi}[1]{e^{- \im #1}}
+\renewcommand{\Im}{\text{Im}}
+\renewcommand{\Re}{\text{Re}}
+
+%EM
+\newcommand{\grad}{\nabla }
+\newcommand{\lap}{\nabla^2}
+\renewcommand{\div}{\grad \cdot }
+\newcommand{\curl}{\grad \times }
+\newcommand{\curlp}[1]{\grad \times \pare{#1}}
+\newcommand{\divp}[1]{\grad \cdot \pare{#1}}
+\newcommand{\er}{\epsilon(\rr)}
+\newcommand{\erw}{\epsilon \rw }
+
+
+%referencing
+\newcommand{\eqnref}[1]{Eq.~\eqref{#1}}
+\newcommand{\figref}[1]{Fig.~\ref{#1}}
+\newcommand{\secref}[1]{Sec.~\ref{#1}}
+\newcommand{\eqcite}[1]{Eq.~\eqref{#1}}
+
+
+%derivatives
+\newcommand{\fd}[2]{\frac{d {#1}}{d {#2}}}
+\newcommand{\fund}[2]{\frac{\delta {#1}}{\delta {#2}}}
+\newcommand{\sd}[2]{\frac{d^2 {#1}}{d {#2} ^2}}
+\newcommand{\fpd}[2]{\frac{\partial {#1}}{\partial {#2}}}
+\newcommand{\spd}[2]{\frac{\partial^2 {#1}}{\partial {#2}^2}}
+
+%% for ease of writing
+\newcommand{\pa}[1]{\partial_{#1}}
+
+%integrals
+\newcommand{\intall}{\int^\infty_{-\infty}}
+\newcommand{\intpve}{\int^\infty_0}
+\newcommand{\intnve}{\int^0_{-\infty}}
+\newcommand{\intto}[2]{\int_{#1}^{#2}}
+\newcommand{\intsymm}[1]{\int_{-#1}^{#1}}
+\newcommand{\dr}{\text{d}^3 \rr}
+\newcommand{\dk}{\text{d}^3 \kk}
+\newcommand{\dt}{\text{d}t}
+\newcommand{\dom}{\text{d}\omega}
+\newcommand{\drp}{\text{d}^3 \rr'}
+
+%some common sets
+\newcommand{\reals}{\mathbb{R}}
+\newcommand{\complex}{\mathbb{C}}
+\newcommand{\ints}{\mathbb{Z}}
+
+%for cursive letters
+\newcommand{\ca}[1]{\textrm{$\mathcal{#1}$}}
+
+%bold letters
+\newcommand{\ab}{\bold{a}}
+\newcommand{\bb}{\bold{b}}
+\newcommand{\dd}{\bold{d}}
+\newcommand{\ff}{\bold{f}}
+\newcommand{\hh}{\bold{h}}
+\newcommand{\jj}{\bold{j}}
+\newcommand{\kk}{\bold{k}}
+\newcommand{\nn}{\bold{n}}
+\newcommand{\pp}{\bold{p}}
+\newcommand{\qq}{\bold{q}}
+\newcommand{\rr}{\bold{r}}
+\renewcommand{\ss}{\bold{s}}
+\newcommand{\uu}{\bold{u}}
+\newcommand{\xx}{\bold{x}}
+\newcommand{\vv}{\bold{v}}
+\newcommand{\zz}{\bold{z}}
+
+\newcommand{\AB}{\bold{A}}
+\newcommand{\BB}{\bold{B}}
+\newcommand{\DD}{\bold{D}}
+\newcommand{\EE}{\bold{E}}
+\newcommand{\FF}{\bold{F}}
+\newcommand{\GG}{\bold{G}}
+\newcommand{\HH}{\bold{H}}
+\newcommand{\JJ}{\bold{J}}
+\newcommand{\MM}{\bold{M}}
+\newcommand{\PP}{\bold{P}}
+\newcommand{\RR}{\bold{R}}
+
+%highlighting
+\newcommand{\red}[1]{{\color{red} {#1}}}
+\newcommand{\blue}[1]{{\color{blue} {#1}}}
+\newcommand{\yellow}[1]{{\color{yellow} {#1}}}
+\newcommand{\green}[1]{{\color{green} {#1}}}
+\newcommand{\todo}[1]{\red{{$\bigstar$ \sc #1}}}
+
+%dyadics / tensors
+
+\newcommand{\bbar}[1]{\bar{\bar{#1}}}
+\newcommand{\dgrad}{\nabla \nabla}
+\newcommand{\lgrad}{\overleftarrow{\nabla}}
+
+% Abbreviations Journals
+
+\newcommand{\PRL}[3]{Phys.~Rev. Lett.~\textbf{#1}, #2~(#3)}
+\newcommand{\APL}[3]{Appl.~Phys. Lett.~\textbf{#1}, #2~(#3)}
+\newcommand{\EPL}[3]{Europhys.~Lett.~\textbf{#1}, #2~(#3)}
+\newcommand{\PRA}[3]{Phys.~Rev. A~\textbf{#1}, #2~(#3)}
+\newcommand{\PRB}[3]{Phys.~Rev. B~\textbf{#1}, #2~(#3)}
+\newcommand{\RMP}[3]{Rev.~Mod.~Phys.~\textbf{#1}, #2~(#3)}
+\newcommand{\PRD}[3]{Phys.~Rev. D~\textbf{#1}, #2~(#3)}
+\newcommand{\JPA}[3]{J.~Phys. A~\textbf{#1}, #2~(#3)}
+\newcommand{\JPB}[3]{J.~Phys. B: At.~Mol.~Opt.~Phys.~\textbf{#1}, #2~(#3)}
+\newcommand{\PLA}[3]{Phys.~Lett. A~\textbf{#1}, #2~(#3)}
+\newcommand{\JOB}[3]{J.~Opt. B~\textbf{#1}, #2~(#3)}
+\newcommand{\JMP}[3]{J.~Math.~Phys.~\textbf{#1}, #2~(#3)}
+\newcommand{\JMO}[3]{J.~Mod.~Opt.~\textbf{#1}, #2~(#3)}
+\newcommand{\NAT}[3]{Nature~\textbf{#1}, #2~(#3)}
+\newcommand{\NATP}[3]{Nature Phys.~\textbf{#1}, #2~(#3)}
+\newcommand{\NATO}[3]{Nature Photon.~\textbf{#1}, #2~(#3)}
+\newcommand{\NATC}[3]{Nature Commun.~\textbf{#1}, #2~(#3)}
+\newcommand{\SCI}[3]{Science~\textbf{#1}, #2~(#3)}
+\newcommand{\IBID}[3]{{\em ibid}.~\textbf{#1}, #2~(#3)}
+\newcommand{\NJP}[3]{New~J.~Phys.~\textbf{#1}, #2~(#3)}
+\newcommand{\PNAS}[3]{Proc.~Natl.~Acad.~Sci.~U.S.A.~\textbf{#1}, #2~(#3)}
+
+\endinput
