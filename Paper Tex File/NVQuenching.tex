@@ -28,24 +28,41 @@ For example is there a difference between the mechanisms for each wavelength. Fo
 \maketitle
 
 \section{Introduction}
-The NV$^-$ charge state is an intensively studied material that has shown a wide range of applications in both Physics and Biology due to it's high stability and interesting optical properties. Biologists have used them extensively for biolabelling and imaging of internal biological structures (???ref3 and 4). Meanwhile, Physisits have been investigating their use in a wide range of nanoscale sensing and quantum sensing applications(???ref5). By exploiting the quantum mechanical interactions of the defects internal spin state, room temperature quantum effects can be observed in the NV$^-$ centre providing a platform to study a wide variety of quantum manipulation protocols (???ref6). However, these desirable effects rely solely on the properties arising from the NV$^-$ charge state and in most applications the excitation wavelength is chosen to be around 510-540nm, as this region was shown to have the highest charge state polarisation (ref7???). By using a single optimised excitation wavelength the impact of the neutral charge state NV$^0$ could be neglected despite the optimal charge state polarisation limited at $75\%$. 
+The Nitrogen Vacancy (NV) centre is is a point defect consisting of a nitrogen-vacancy lattice pair embedded along the [111] axis of a diamond (???ref1). The NV centre has two stable charge states, the neutral charge state (NV$^0$) and the negatively charged state (NV$^-$), with photo-induced interconversion between these two states (???ref2). The NV$^-$ charge state is an intensively studied material that has shown a wide range of applications in both Physics and Biology due to it's high stability and interesting optical properties. Biologists have used them extensively for biolabelling and imaging of internal biological structures (???ref3 and 4). Meanwhile, Physisits have been investigating their use in a wide range of nanoscale sensing and quantum sensing applications(???ref5). By exploiting the quantum mechanical interactions of the defects internal spin state, room temperature quantum effects can be observed in the NV$^-$ centre providing a platform to study a wide variety of quantum manipulation protocols (???ref6). However, these desirable effects rely solely on the properties arising from the NV$^-$ charge state and in most applications the excitation wavelength is chosen to be around 510-540nm, as this region was shown to have the highest charge state polarisation (ref7???). By using a single optimised excitation wavelength the impact of the neutral charge state NV$^0$ could be neglected despite the optimal charge state polarisation limited at $75\%$. 
 
 In cases where only the single excitation laser is used the NV centre has been long stated to be extremely robust, with no bleaching or blinking under normal conditions(ref8???). However, in many cases once a second probe laser is used in an experiment the fluorescence of the NV centre is dramatically quenched(ref9???), preventing further applications and systems that require additional laser wavelengths. The quenching of fluorescence has been observed and described by numerous potential mechanisms, including (list here???1). In contrast to many of these mechanisms we are collecting the fluorescence of both charge states as well as probing in a non resonant continuous-wave regime of a few 10s of milliwatts eliminating many of the above mechanisms that rely transient mechanisms or high intensities fields. 
 
 In this paper we investigate the quenching effects of the NV centre fluorescence in order to provide insight into the charge and spin state photo-dynamics. Our process is to measure the quenching dynamics of the NV centre under steady state illumination and using established physics of the NV centre in order to develop a rate equation model that describes the potential photo-physics of the system. Using this model various assumptions are analysed in order to determine their validity and the most likely model is determined by the Aikike information criteria. We believe this new rate equation model indicates the underlying physics that leads to the quenching of fluorescence that has been observed in the NV centre. By understanding the corresponding rates and processes we aim to apply particular initialisation processes to increase the spin and charge state polarisation of the NV centre. This will lead to direct enhancements of applications such as STED like imaging and for enhancing state preparation for NV based quantum technologies.
 
-
-
-
 \todo{Should I add examples of further applications and systems that require additional laser wavelengths}
 
-
-\section{Nitrogen Vacancy Centre}
-Describe in more detail the centre itself
 \subsection{Negatively Charge State}
-Describe energy transitions and details of NV-
+The energy level diagram of the negatively charged NV$^-$ centre  can be observed in Fig. \ref{FigEnergyLevelsNV-}.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.4\textwidth]{NV-.jpg} 
+ \caption{Energy levels of the NV$^-$ centre.} \label{FigEnergyLevelsNV-}
+\end{figure}
+
+It consists a ground triplet state $^3A_2$ and an excited triplet state $^3E$, as well as two metastable singlet states $^1E_1$ and $^1A_1$ ref11???. Within the spin triplet states the $m_s = 0$ ans $m_s = \pm1$ spin states are split in energy at zero magnetic field by $D=\SI{2.87}{GHz}$ for the ground triplet and $D=\SI{1.42}{GHz}$ for the excited triplet (Ref12???). The spin transition rate between the ground $m_s = 0$ ans $m_s = \pm1$ spin states is given by the spin-lattice relaxation time $T_1$ and has been measure to be $\approx\SI{6}{ms}$ at room temperature and zero magnetic field (ref13???). This spin mixing rate can be dramatically increased by appling a large magnetic field in the vicinity of the NV centre ref14???.
+
+\todo{I am being vague about the spin mixing rate because because I believe the current explanation of Zeeman splitting the spin sublevels has holes in it. Ask me for more info or look at comment in tex file}
+% This explanation would not explain the saturation effect that are observed as you bring in the magnet. Following the Zeeman splitting logic you would expect only one spot where there is large mixing and then you would reduce the mixing as you cross this precise field strength. However this saturation effect may be a result of having a collection of NV centres, however Xavi and Matt observed the same effect with single NV centres. This leads to the belief that the spin mixing may not be due to zeeman splitting and the absolute magnitude of the magnetic field but instead due to the thermal perturbations of the magnet destroying the spin coherence. In any case someone familiar with NV centres will accept this statement anyway. Although the question of why there is no spin mixing on the excited state is still a valid question that I still have no answer for other than it is completely absent from the literature and at this stage (22/12/16) my model does indicated that it does not occur. 	I also had the thought that the spin mixing rate is still increasing as we are bringing in the magnet but the rate is already high enough to spin depolarise the system. This can be checked using the model.
+%If they were only capturing NV- or mostly NV- (I Never got a good answer to this question from MAtt and Xavi) then due to a combination of the magnet mixing the spin state, which will give an \~\%30 quenching by it self, and then due to spin dependant ionisation this mixed spin state will lead to a higher Ionisation rate and hence a reduction in NV$^-$ charge state polarisation and reduction in Fuorescence.
+ 
+The principle zero-phonon line between the $^3A_2$ and $^3E$ is centred at 637nm and can be efficiently excited with spin conservation at most wavelengths below 640nm (ref15???). The radiative lifetime of the excited state is $\SI{13}{ns}$ for NV centres in bulk diamond (ref16???) and approximately $\SI{25}{ns}$ for NV centres in nanodiamonds (ref17???). Only a few percent of the Fluorescence is emitted at the ZPL, most fluorescence appears in the phonon side bands between 600 and 800nm as shown in Fig. \ref{FigFluoro}.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.4\textwidth]{Fluoro.png} 
+ \caption{ Fluoresence profiles of NV charge states .} \label{FigFluoro}
+\end{figure}
+
+The excited triplet states can also decay to the excited singlet state, the rate from the $m_s=\pm1$ excited triplet state is $2\pi\times9.4\times10^6\SI{}{GHz} = \SI{16.9}{ns}$, whereas the rate from the $m_s=0$ excited triplet state is almost an order of magnitude smaller at $ 2\pi\times1.8\times10^6 \SI{}{GHz} = \SI{88.4}{ns}$ (ref18???). Whilst it not completely understood why there is a large discrepancy between these decay channels it is noteworthy that this discrepancy is what leads to many of the interesting optical properties of the NV centre. It causes a difference in fluorescence intensity between the two excited spin states which in turn leads to a mechanism for an all optical readout of the centres internal spin state. The excited singlet state has a lifetime of $\approx\si{1}{ns}$ (ref19???) and populates the longer lived ground singlet state and it has been shown to emit fluorescence at a ZPL of $\SI{1042}{nm}$ ref20???. The longer lived ground metastable state has a lifetime of $\SI{150}{ns}$ and decays into the ground the triplet spin state ref21???. It was commonly believed that this population decayed only into the $m_s=0$ spin state, however a recently this is being challenged and it has been claimed that the decay into the ground triplet has a spin state ratio closer to $\frac{m_s=0}{m_s=\pm1} = 1.1-2$ ref22???. 
+
 \subsection{Neutral Charged State}
-Similarly do the same with NV0
+The energy level diagram of the neutral charged NV$^-$ centre  can be observed in Fig. \ref{FigEnergyLevelsNV-}.
 \subsection{Ionisation Process}
 Desribe NV- to NV0 Process
 \subsection{Recombination Process}
@@ -55,11 +72,12 @@ Describe NV0 to NV- Process
 Describe the Quenching Experiment.
 
 \section{Quenching Models}
-In order to determine the intrinsic photophysics of our nanodiamonds we developed an 8 level rate equation model that incorporates both the ionisation and recombination mechanisms as well as the STED like mechanisms. The free paramaters of the model were varied in order to determine the most likely dynamics of the system. Four approaches were investigated and the most likely model was indetified by the Akaike information criteria blah blah
+In order to determine the intrinsic photophysics of our nanodiamonds we developed an 8 level rate equation model that incorporates both the ionisation and recombination mechanisms as well as the STED like mechanisms. The free paramaters of the model were varied in order to determine the most likely dynamics of the system. Four approaches were investigated and the most likely model was identified by the Akaike information criteria blah blah
 
 Insert simple diagram of the model and then for each model include separate rates.
 
 \subsection{Underlying assumptions and unknowns}
+Blah
 
 \subsection{'STED' model}
 Blah
