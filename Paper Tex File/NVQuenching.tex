@@ -19,10 +19,13 @@
 
 
 \begin{abstract}
-I will write my abstract when I know my exact story.
-The paper will be two papers, one for 780nm and one for 1042nm, unless I gain by putting the two papers together and build one higher impact paper.
-The complete set of data should answer this question.
-For example is there a difference between the mechanisms for each wavelength. For example the 780nm can both ionise and recombine, however maybe the 1042nm can only ionise and can't lease to a recombination process.
+NVs are cool becuase they do cool sciency stuff.
+All cool stuff comes from NV-.
+People use 532 excitation to increase charge polarisation so they can optimise cool stuff and neglect NV0.
+They looked at it with only one excitation wavelength at a time. 
+Clearly charge polarisation depends on wavelength.
+So clearly quenching must occur with second wavelength.
+Must understand all of this stuff to intergrate NVs into other systems that use lasers.
 \end{abstract}
 
 \maketitle
@@ -45,7 +48,7 @@ The energy level diagram of the negatively charged NV$^-$ centre  can be observe
  \caption{Energy levels of the NV$^-$ centre.} \label{FigEnergyLevelsNV-}
 \end{figure}
 
-It consists a ground triplet state $^3A_2$ and an excited triplet state $^3E$, as well as two metastable singlet states $^1E_1$ and $^1A_1$ ref11???. Within the spin triplet states the $m_s = 0$ ans $m_s = \pm1$ spin states are split in energy at zero magnetic field by $D=\SI{2.87}{GHz}$ for the ground triplet and $D=\SI{1.42}{GHz}$ for the excited triplet (Ref12???). The spin transition rate between the ground $m_s = 0$ ans $m_s = \pm1$ spin states is given by the spin-lattice relaxation time $T_1$ and has been measure to be $\approx\SI{6}{ms}$ at room temperature and zero magnetic field (ref13???). This spin mixing rate can be dramatically increased by appling a large magnetic field in the vicinity of the NV centre ref14???.
+The NV$^-$ consists of a ground triplet state $^3A_2$ and an excited triplet state $^3E$, as well as two metastable singlet states $^1E_1$ and $^1A_1$ ref11???. Within the spin triplet states the $m_s = 0$ ans $m_s = \pm1$ spin states are split in energy at zero magnetic field by $D=\SI{2.87}{GHz}$ for the ground triplet and $D=\SI{1.42}{GHz}$ for the excited triplet (Ref12???). The spin transition rate between the ground $m_s = 0$ ans $m_s = \pm1$ spin states is given by the spin-lattice relaxation time $T_1$ and has been measure to be $\approx\SI{6}{ms}$ at room temperature and zero magnetic field (ref13???). This spin mixing rate can be dramatically increased by appling a large magnetic field in the vicinity of the NV centre ref14???.
 
 \todo{I am being vague about the spin mixing rate because because I believe the current explanation of Zeeman splitting the spin sublevels has holes in it. Ask me for more info or look at comment in tex file}
 % This explanation would not explain the saturation effect that are observed as you bring in the magnet. Following the Zeeman splitting logic you would expect only one spot where there is large mixing and then you would reduce the mixing as you cross this precise field strength. However this saturation effect may be a result of having a collection of NV centres, however Xavi and Matt observed the same effect with single NV centres. This leads to the belief that the spin mixing may not be due to zeeman splitting and the absolute magnitude of the magnetic field but instead due to the thermal perturbations of the magnet destroying the spin coherence. In any case someone familiar with NV centres will accept this statement anyway. Although the question of why there is no spin mixing on the excited state is still a valid question that I still have no answer for other than it is completely absent from the literature and at this stage (22/12/16) my model does indicated that it does not occur. 	I also had the thought that the spin mixing rate is still increasing as we are bringing in the magnet but the rate is already high enough to spin depolarise the system. This can be checked using the model.
@@ -62,9 +65,25 @@ The principle zero-phonon line between the $^3A_2$ and $^3E$ is centred at 637nm
 The excited triplet states can also decay to the excited singlet state, the rate from the $m_s=\pm1$ excited triplet state is $2\pi\times9.4\times10^6\SI{}{GHz} = \SI{16.9}{ns}$, whereas the rate from the $m_s=0$ excited triplet state is almost an order of magnitude smaller at $ 2\pi\times1.8\times10^6 \SI{}{GHz} = \SI{88.4}{ns}$ (ref18???). Whilst it not completely understood why there is a large discrepancy between these decay channels it is noteworthy that this discrepancy is what leads to many of the interesting optical properties of the NV centre. It causes a difference in fluorescence intensity between the two excited spin states which in turn leads to a mechanism for an all optical readout of the centres internal spin state. The excited singlet state has a lifetime of $\approx\si{1}{ns}$ (ref19???) and populates the longer lived ground singlet state and it has been shown to emit fluorescence at a ZPL of $\SI{1042}{nm}$ ref20???. The longer lived ground metastable state has a lifetime of $\SI{150}{ns}$ and decays into the ground the triplet spin state ref21???. It was commonly believed that this population decayed only into the $m_s=0$ spin state, however a recently this is being challenged and it has been claimed that the decay into the ground triplet has a spin state ratio closer to $\frac{m_s=0}{m_s=\pm1} = 1.1-2$ ref22???. 
 
 \subsection{Neutral Charged State}
-The energy level diagram of the neutral charged NV$^-$ centre  can be observed in Fig. \ref{FigEnergyLevelsNV-}.
+As opposed to the rigorous study the NV$^-$ charge state has received the $NV^0$ charge state has often been neglected. However in order to study the NV centre as a whole it must be included. We use the established three level model to describe its intrinsic dynamics. The energy level diagram of the neutral charged NV$^0$ centre  can be observed in Fig. \ref{FigEnergyLevelsNV0}.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.4\textwidth]{NV0.jpg} 
+ \caption{Energy levels of the NV$^-$ centre.} \label{FigEnergyLevelsNV-}
+\end{figure}
+
+The NV$^0$ charge state consists of of a ground doublet $^2E$ and an excited doublet $^2A$ with a ZPL at $\SI{575}{nm} = \SI{2.156}{eV}$  and can be efficiently excited at most wavelengths below $\SI{675}{nm}$ ref23???. Differing from NV$^-$, NV$^0$ does not have detectable magnetic resonances associated with its degenerate spin doublet ground and excited states ref24???. Only a few percent of the Fluorescence is emitted in the ZPL, whereas most fluorescence appears in the phonon side bands between 550 and 750nm. However, no ODMR or optical readout of this metastable quartet have been measured and it is expected to have negligible impact on the photo-physics of the NV centre and as such has been neglected from our analysis. \todo{This statement was true as of February 2013, I need to ensure that this is still true.}
+
+
+\todo{Put this Stuff in somewhere later, Although the exact excitation cross section is unknown the ratio of excitation cross sections between NV$^0$ and NV$^-$ can be measured by looking at their relative emission intensities. The ratio of excitation cross sections is $\Gamma_{g^Ze^Z} = \frac{1}{3} \Gamma_{g^Te^T}$ ref25???. The radiative lifetime of the excited state is $\Gamma_{e^Zg^Z} = 19\times2 \SI{}{ns}$ ref26???.}  
+\todo{I think I doubled this value because NV- lifetimes were doubled in ND as compared to bulk and the lifetime I found was in Bulk diamond. Either need to find value for ND's or argue that it should also increase the same way as NV- did...}
+
+\subsection{Ionisation \& Recombination}
+To convert between the two charge states we need to examine both the Ionisation process from NV$^-$ to NV$^0$ and  the Recombination process from NV$^0$ to NV$^-$. The desirable effects of the NV centre rely solely on the properties arising from the NV$^-$ charge state and as a result the standard excitation laser used in NV centre applications is chosen so that it produces the highest charge state polarisation in an effort to optimise the effect and allow them to neglect any effects due to the $NV^0$ charge state(ref7???).  
+
 \subsection{Ionisation Process}
-Desribe NV- to NV0 Process
+Describe NV- to NV0 Process
 \subsection{Recombination Process}
 Describe NV0 to NV- Process
 
