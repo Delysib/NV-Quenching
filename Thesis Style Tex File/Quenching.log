@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.4.26)  8 MAY 2017 13:34
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.4.26)  10 MAY 2017 11:54
 entering extended mode
 **Quenching.tex
 ("E:\PhD Thesis\Write Papers\NV-Quenching\Thesis Style Tex File\Quenching.tex"
@@ -1043,11 +1043,11 @@ l.1 \BOOKMARK [1][-]{section*.1}{Introduction}{}
 
  
 Here is how much of TeX's memory you used:
- 16027 strings out of 493921
- 301296 string characters out of 3147267
- 330508 words of memory out of 3000000
- 19137 multiletter control sequences out of 15000+200000
+ 16015 strings out of 493921
+ 301142 string characters out of 3147267
+ 329598 words of memory out of 3000000
+ 19125 multiletter control sequences out of 15000+200000
  7393 words of font info for 16 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 38i,1n,45p,349b,85s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,1n,45p,296b,85s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!
