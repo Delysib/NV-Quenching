@@ -1,4 +1,4 @@
-\documentclass[preprint,prl,twocolumn]{revtex4}
+\documentclass[,prl,twocolumn]{revtex4}
 
 \usepackage{ORI_Group_style}
 \usepackage{siunitx}
@@ -120,45 +120,47 @@ For each nanodiamond the saturation curve of the fluorescence of the NV centre i
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.5\textwidth]{Data2.png} 
+  \includegraphics[width=0.4\textwidth]{Data2.png} 
  \caption{\textbf{Experimental data.} \textbf{a.} This is the data swap a and b???} \label{FigData}
 \end{figure}
 
 \todo{Describe what the data is and what it indicates.}
 \todo{I many also want to use a magnet and no magnet trace in one window and show that for high quenching they are spin depolarised.}
 
-
 \section{Quenching Models}
+In order to determine the intrinsic photophysics of our nanodiamonds we developed an 8 level rate equation model that incorporates both the ionisation and recombination mechanisms as well as the STED like mechanisms. The free parameters of the model were varied in order to determine the most likely dynamics of the system. Six submodels were investigated and the most likely model was identified by the Akaike information criteria. The six models can be seen in figure \ref{FigModels}.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\textwidth]{models.png} 
+ \caption{\textbf{Experimental models.} \textbf{a.} This are the six models we looked at} \label{FigModels}
+\end{figure}
 
 
-In order to determine the intrinsic photophysics of our nanodiamonds we developed an 8 level rate equation model that incorporates both the ionisation and recombination mechanisms as well as the STED like mechanisms. The free paramaters of the model were varied in order to determine the most likely dynamics of the system. Four approaches were investigated and the most likely model was identified by the Akaike information criteria blah blah
+The models can separated by their underlying quenching mechanism whether it be a STED like process, an Ionisation and Recombination process or a combination of the two. These three groups can then be split in two depending on if the model is a spin dependent quenching model or a spin independent quenching model. Below is a short description of each of the separate model types, for a comprehensive description of the rate equations and models refer to the supplementary material.
 
-Insert simple diagram of the model and then for each model include separate rates.
+\subsubsection{STED like models}
+The STED like models are models that describe the quenching of the fluorescence through a true stimulated emission process or even by a  processes that are mediated though an extra metastable fast decay state of the NV$^-$ centre ref???.
 
-\subsection{Underlying assumptions and unknowns}
-Blah
+\subsubsection{Ionisation and Recombination models}
+The ionisation and recombination models relies on the two step processes that convert the charge state of the NV centre. Each time the NV centre is excited the flouresence of the NV centre is reduced due to the increased non radiative decay channels enabled by the conversion of charge state of the NV centre.
 
-\subsection{'STED' model}
-Blah
-\subsection{Simple Ionisation and Recombination Model}
-Where the Ionisation and recombination rates are linearly dependant on laser power indepentant of wavelength.
-\subsection{Wavelength Dependant I\&R}
-Where the Ionisation and recombination rates are linearly dependant on laser power and dependant on wavelenght.
-\subsection{Spin Depenatant I\&R}
-Where the Ionisation and recombination rates are linearly dependant on laser power and dependant on wavelength. In addition there are separate ionisation rates from the $ms=\pm1$ and $ms=0$ of the excited NV- charge state to the ground state. However the ratio between these two ionisation channels is held constant for each laser wavelength.
+\subsubsection{Spin Dependancy}
+In each of the above mechanisms the quenching of the fluorescence from the NV$^-$ charge state can occur from either the $m_s=0$ or $m_s=\pm1$ excited state. One would initially assume that the ionisation and STED like mechanisms would be spin independant, however these energy levels already show a spin dependant nature towards the siglet states. 
+\todo{Maybe correct need to find proof, maybe rochelles thesis or superradiance paper: In addition the dipole strength of the excited $m_s=\pm1$ state in nanodiamonds containing a collections of NV centres is $\approx 10\times$ that of the dipole strength of the excited $m_s=0$ state.}
+As a result we investigated the possibility that the interactional cross sections of the excited NV$^-$ centre can be spin dependant.
 
 
 \section{Akaike Information Criteria}
-Blah Blah
-
-Highlight the optimal model, Maybe put table here or in appendix.
+What is the Aikike infromation criteria.
+Which model is the best model?
 
 \section{Discussion}
-The optimal model is blah?
+The optimal model is a spin dependant Ionisation and recombination model.
 
 \subsection{Model Parameters}
 The the values make sense?
-What are the ionisation rates like? are the close to 10ms/mW. Spin dependancy may occur from different dipolar cross section between the two excited states.
+What are the ionisation rates like? are the close to 10ms/mW. Spin dependency may occur from different dipolar cross section between the two excited states.
 Similar with the recombination rates? Link it to singlet nitrogen.
 Recombination occurs into which ground state of the NV- 
 Singlet recombination between 0.66 and 1 which is consistent.

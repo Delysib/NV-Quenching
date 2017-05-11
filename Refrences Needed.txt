@@ -41,7 +41,7 @@ ref36 10x stronger dipole for \pm1
 
 ref Extra state having negligilbe effect.
 
-
+https://www.nature.com/articles/ncomms12250 (1.55um trapping ESR, good refs in here)
 
 
 ???1 Description of quenching described by bunch of things which are stated in Romain, Fast optical modulation transistor paper
