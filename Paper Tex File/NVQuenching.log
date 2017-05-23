@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.4.26)  10 MAY 2017 15:46
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.4.26)  23 MAY 2017 17:00
 entering extended mode
 **NVQuenching.tex
 ("E:\PhD Thesis\Write Papers\NV-Quenching\Paper Tex File\NVQuenching.tex"
@@ -1181,13 +1181,13 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 31.
 
-<./figs/NV-.jpg, id=84, 782.925pt x 746.03719pt>
+<./figs/NV-.jpg, id=68, 782.925pt x 746.03719pt>
 File: ./figs/NV-.jpg Graphic file (type jpg)
  <use ./figs/NV-.jpg>
 Package pdftex.def Info: ./figs/NV-.jpg used on input line 48.
 (pdftex.def)             Requested size: 203.99689pt x 194.3749pt.
  [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<./figs/Fluoro.png, id=103, 1029.8475pt x 686.565pt>
+<./figs/Fluoro.png, id=87, 1029.8475pt x 686.565pt>
 File: ./figs/Fluoro.png Graphic file (type png)
  <use ./figs/Fluoro.png>
 Package pdftex.def Info: ./figs/Fluoro.png used on input line 62.
@@ -1197,7 +1197,7 @@ Package pdftex.def Info: ./figs/Fluoro.png used on input line 62.
 LaTeX Warning: Reference `FigEnergyLevelsNV0' on page 2 undefined on input line
  69.
 
-<./figs/NV0.jpg, id=105, 558.58687pt x 600.74437pt>
+<./figs/NV0.jpg, id=89, 558.58687pt x 600.74437pt>
 File: ./figs/NV0.jpg Graphic file (type jpg)
  <use ./figs/NV0.jpg>
 Package pdftex.def Info: ./figs/NV0.jpg used on input line 73.
@@ -1205,14 +1205,14 @@ Package pdftex.def Info: ./figs/NV0.jpg used on input line 73.
 
 [2 <E:/PhD Thesis/Write Papers/NV-Quenching/Paper Tex File/figs/NV-.jpg> <E:/Ph
 D Thesis/Write Papers/NV-Quenching/Paper Tex File/figs/Fluoro.png>]
-<./figs/ChargeConversiona.png, id=119, 1174.3875pt x 728.7225pt>
+<./figs/ChargeConversiona.png, id=103, 1174.3875pt x 728.7225pt>
 File: ./figs/ChargeConversiona.png Graphic file (type png)
 
 <use ./figs/ChargeConversiona.png>
 Package pdftex.def Info: ./figs/ChargeConversiona.png used on input line 89.
 (pdftex.def)             Requested size: 203.99689pt x 126.58319pt.
 
-<./figs/ChargeConversionb.png, id=121, 882.29625pt x 732.48656pt>
+<./figs/ChargeConversionb.png, id=105, 882.29625pt x 732.48656pt>
 File: ./figs/ChargeConversionb.png Graphic file (type png)
 
 <use ./figs/ChargeConversionb.png>
@@ -1221,13 +1221,13 @@ Package pdftex.def Info: ./figs/ChargeConversionb.png used on input line 100.
  [3 <E:/PhD Thesis/Write Papers/NV-Quenching/Paper Tex File/figs/NV0.jpg> <E:/P
 hD Thesis/Write Papers/NV-Quenching/Paper Tex File/figs/ChargeConversiona.png>]
 
-<./figs/Setup.png, id=130, 540.14297pt x 455.07515pt>
+<./figs/Setup.png, id=114, 540.14297pt x 455.07515pt>
 File: ./figs/Setup.png Graphic file (type png)
  <use ./figs/Setup.png>
 Package pdftex.def Info: ./figs/Setup.png used on input line 114.
 (pdftex.def)             Requested size: 153.00156pt x 128.89922pt.
 
-<./figs/Data2.png, id=132, 435.12563pt x 1001.99344pt>
+<./figs/Data2.png, id=116, 435.12563pt x 1001.99344pt>
 File: ./figs/Data2.png Graphic file (type png)
  <use ./figs/Data2.png>
 Package pdftex.def Info: ./figs/Data2.png used on input line 123.
@@ -1235,33 +1235,33 @@ Package pdftex.def Info: ./figs/Data2.png used on input line 123.
 
 [4 <E:/PhD Thesis/Write Papers/NV-Quenching/Paper Tex File/figs/ChargeConversio
 nb.png> <E:/PhD Thesis/Write Papers/NV-Quenching/Paper Tex File/figs/Setup.png>
-] <./figs/models.png, id=142, 543.53062pt x 471.26062pt>
+] <./figs/models.png, id=126, 543.53062pt x 471.26062pt>
 File: ./figs/models.png Graphic file (type png)
 
 <use ./figs/models.png>
-Package pdftex.def Info: ./figs/models.png used on input line 135.
+Package pdftex.def Info: ./figs/models.png used on input line 137.
 (pdftex.def)             Requested size: 255.0pt x 221.09703pt.
 
-Overfull \hbox (9.0pt too wide) in paragraph at lines 135--136
+Overfull \hbox (9.0pt too wide) in paragraph at lines 137--138
  [][] 
  []
 
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 142.
+(hyperref)                than one, level fixed on input line 144.
 
 [5 <E:/PhD Thesis/Write Papers/NV-Quenching/Paper Tex File/figs/Data2.png> <E:/
 PhD Thesis/Write Papers/NV-Quenching/Paper Tex File/figs/models.png>]
 
-Package natbib Warning: Empty `thebibliography' environment on input line 210.
+Package natbib Warning: Empty `thebibliography' environment on input line 204.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 215.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 215.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 209.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 209.
 [6] ("E:\PhD Thesis\Write Papers\NV-Quenching\Paper Tex File\NVQuenching.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 215.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 215.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 209.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 209.
 Package rerunfilecheck Info: File `NVQuenching.out' has not changed.
-(rerunfilecheck)             Checksum: 2059E5215F3EFAF8F2F5AF3D37476BBA;1238.
+(rerunfilecheck)             Checksum: 4D3B3DFD111A4A478419CEE6DDB7A3C3;985.
 
 
 LaTeX Warning: There were undefined references.
@@ -1271,10 +1271,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 16821 strings out of 493921
- 315158 string characters out of 3147267
- 348746 words of memory out of 3000000
- 19804 multiletter control sequences out of 15000+200000
+ 16813 strings out of 493921
+ 315062 string characters out of 3147267
+ 360764 words of memory out of 3000000
+ 19800 multiletter control sequences out of 15000+200000
  71680 words of font info for 66 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  38i,7n,45p,1519b,734s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1294,9 +1294,9 @@ s/type1/public/lm/lmri9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/
 lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy6.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:/Program Files/MiKTeX 
 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on NVQuenching.pdf (6 pages, 1505855 bytes).
+Output written on NVQuenching.pdf (6 pages, 1506180 bytes).
 PDF statistics:
- 217 PDF objects out of 1000 (max. 8388607)
- 34 named destinations out of 1000 (max. 500000)
- 201 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 200 PDF objects out of 1000 (max. 8388607)
+ 30 named destinations out of 1000 (max. 500000)
+ 169 words of extra memory for PDF output out of 10000 (max. 10000000)
 
