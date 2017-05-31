@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.4.26)  29 MAY 2017 16:07
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.4.26)  30 MAY 2017 17:01
 entering extended mode
 **NVQuenching.tex
 ("E:\PhD Thesis\Write Papers\NV-Quenching\Non-Akaike Paper\NVQuenching.tex"
@@ -1173,96 +1173,129 @@ LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 11.
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 32.
+(Font)              <9> on input line 23.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 32.
-
-<./figs/Setup.png, id=56, 540.14297pt x 455.07515pt>
+(Font)              <6> on input line 23.
+ [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+<./figs/Setup.png, id=88, 540.14297pt x 455.07515pt>
 File: ./figs/Setup.png Graphic file (type png)
  <use ./figs/Setup.png>
-Package pdftex.def Info: ./figs/Setup.png used on input line 48.
+Package pdftex.def Info: ./figs/Setup.png used on input line 42.
 (pdftex.def)             Requested size: 153.00156pt x 128.89922pt.
 
-<./figs/Spectra.png, id=58, 289.08pt x 473.51906pt>
-File: ./figs/Spectra.png Graphic file (type png)
- <use ./figs/Spectra.png>
-Package pdftex.def Info: ./figs/Spectra.png used on input line 56.
-(pdftex.def)             Requested size: 203.99689pt x 334.14888pt.
+<./figs/Spectras.png, id=90, 285.31593pt x 668.4975pt>
+File: ./figs/Spectras.png Graphic file (type png)
 
-[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2 <E:/PhD Thesis/Write
- Papers/NV-Quenching/Non-Akaike Paper/figs/Setup.png> <E:/PhD Thesis/Write Pape
-rs/NV-Quenching/Non-Akaike Paper/figs/Spectra.png>]
-<./figs/Data2.png, id=86, 435.12563pt x 1001.99344pt>
-File: ./figs/Data2.png Graphic file (type png)
- <use ./figs/Data2.png>
-Package pdftex.def Info: ./figs/Data2.png used on input line 66.
-(pdftex.def)             Requested size: 203.99689pt x 469.75972pt.
+<use ./figs/Spectras.png>
+Package pdftex.def Info: ./figs/Spectras.png used on input line 50.
+(pdftex.def)             Requested size: 203.99689pt x 477.96188pt.
+ [2 <E:/PhD Thesis/Write Papers/NV-Quenching/Non-Akaike Paper/figs/Setup.png>]
+<./figs/DataCurves.png, id=98, 285.31593pt x 676.02562pt>
+File: ./figs/DataCurves.png Graphic file (type png)
 
-[3 <E:/PhD Thesis/Write Papers/NV-Quenching/Non-Akaike Paper/figs/Data2.png>]
-<./figs/NVjpg.jpg, id=95, 2746.26pt x 1830.84pt>
+<use ./figs/DataCurves.png>
+Package pdftex.def Info: ./figs/DataCurves.png used on input line 60.
+(pdftex.def)             Requested size: 203.99689pt x 483.34433pt.
+ [3 <E:/PhD Thesis/Write Papers/NV-Quenching/Non-Akaike Paper/figs/Spectras.png
+>] [4 <E:/PhD Thesis/Write Papers/NV-Quenching/Non-Akaike Paper/figs/DataCurves
+.png (PNG copy)>]
+<./figs/NVjpg.jpg, id=112, 2746.26pt x 1830.84pt>
 File: ./figs/NVjpg.jpg Graphic file (type jpg)
  <use ./figs/NVjpg.jpg>
-Package pdftex.def Info: ./figs/NVjpg.jpg used on input line 74.
+Package pdftex.def Info: ./figs/NVjpg.jpg used on input line 68.
 (pdftex.def)             Requested size: 203.99689pt x 135.99406pt.
 
-[4 <E:/PhD Thesis/Write Papers/NV-Quenching/Non-Akaike Paper/figs/NVjpg.jpg>]
-<./figs/ChargeConversiona.png, id=108, 1174.3875pt x 728.7225pt>
+[5 <E:/PhD Thesis/Write Papers/NV-Quenching/Non-Akaike Paper/figs/NVjpg.jpg>]
+<./figs/ChargeConversiona.png, id=125, 1174.3875pt x 728.7225pt>
 File: ./figs/ChargeConversiona.png Graphic file (type png)
 
 <use ./figs/ChargeConversiona.png>
-Package pdftex.def Info: ./figs/ChargeConversiona.png used on input line 114.
+Package pdftex.def Info: ./figs/ChargeConversiona.png used on input line 108.
 (pdftex.def)             Requested size: 203.99689pt x 126.58319pt.
- [5 <E:/PhD Thesis/Write Papers/NV-Quenching/Non-Akaike Paper/figs/ChargeConver
+ [6 <E:/PhD Thesis/Write Papers/NV-Quenching/Non-Akaike Paper/figs/ChargeConver
 siona.png>]
-<./figs/ChargeConversionb.png, id=117, 882.29625pt x 732.48656pt>
+<./figs/ChargeConversionb.png, id=133, 882.29625pt x 732.48656pt>
 File: ./figs/ChargeConversionb.png Graphic file (type png)
 
 <use ./figs/ChargeConversionb.png>
-Package pdftex.def Info: ./figs/ChargeConversionb.png used on input line 126.
+Package pdftex.def Info: ./figs/ChargeConversionb.png used on input line 120.
 (pdftex.def)             Requested size: 203.99689pt x 169.35133pt.
- [6 <E:/PhD Thesis/Write Papers/NV-Quenching/Non-Akaike Paper/figs/ChargeConver
+ [7 <E:/PhD Thesis/Write Papers/NV-Quenching/Non-Akaike Paper/figs/ChargeConver
 sionb.png>]
-<./figs/SubModels.png, id=124, 418.94016pt x 325.96782pt>
+<./figs/SpinData.png, id=141, 422.32782pt x 316.18124pt>
+File: ./figs/SpinData.png Graphic file (type png)
+
+<use ./figs/SpinData.png>
+Package pdftex.def Info: ./figs/SpinData.png used on input line 152.
+(pdftex.def)             Requested size: 203.99689pt x 152.72534pt.
+
+<./figs/IonAndRecom.jpg, id=142, 563.10374pt x 421.575pt>
+File: ./figs/IonAndRecom.jpg Graphic file (type jpg)
+
+<use ./figs/IonAndRecom.jpg>
+Package pdftex.def Info: ./figs/IonAndRecom.jpg used on input line 158.
+(pdftex.def)             Requested size: 203.99689pt x 152.72534pt.
+
+<./figs/IonRateCompare.png, id=143, 663.22781pt x 249.18094pt>
+File: ./figs/IonRateCompare.png Graphic file (type png)
+
+<use ./figs/IonRateCompare.png>
+Package pdftex.def Info: ./figs/IonRateCompare.png used on input line 164.
+(pdftex.def)             Requested size: 203.99689pt x 76.64073pt.
+ [8 <E:/PhD Thesis/Write Papers/NV-Quenching/Non-Akaike Paper/figs/SpinData.png
+ (PNG copy)> <E:/PhD Thesis/Write Papers/NV-Quenching/Non-Akaike Paper/figs/Ion
+AndRecom.jpg>]
+<./figs/ChargeData.png, id=150, 422.32782pt x 316.18124pt>
+File: ./figs/ChargeData.png Graphic file (type png)
+
+<use ./figs/ChargeData.png>
+Package pdftex.def Info: ./figs/ChargeData.png used on input line 170.
+(pdftex.def)             Requested size: 203.99689pt x 152.72534pt.
+ [9 <E:/PhD Thesis/Write Papers/NV-Quenching/Non-Akaike Paper/figs/IonRateCompa
+re.png> <E:/PhD Thesis/Write Papers/NV-Quenching/Non-Akaike Paper/figs/ChargeDa
+ta.png (PNG copy)>]
+<./figs/SubModels.png, id=159, 418.94016pt x 325.96782pt>
 File: ./figs/SubModels.png Graphic file (type png)
 
 <use ./figs/SubModels.png>
-Package pdftex.def Info: ./figs/SubModels.png used on input line 172.
+Package pdftex.def Info: ./figs/SubModels.png used on input line 202.
 (pdftex.def)             Requested size: 203.99689pt x 158.72588pt.
- [7]
-<./figs/models.png, id=132, 543.53062pt x 471.26062pt>
+
+<./figs/models.png, id=161, 543.53062pt x 471.26062pt>
 File: ./figs/models.png Graphic file (type png)
  <use ./figs/models.png>
-Package pdftex.def Info: ./figs/models.png used on input line 181.
+Package pdftex.def Info: ./figs/models.png used on input line 211.
 (pdftex.def)             Requested size: 255.0pt x 221.09703pt.
 
+[10 <E:/PhD Thesis/Write Papers/NV-Quenching/Non-Akaike Paper/figs/SubModels.pn
+g>]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 188.
+(hyperref)                than one, level fixed on input line 218.
 
-[8 <E:/PhD Thesis/Write Papers/NV-Quenching/Non-Akaike Paper/figs/SubModels.png
-> <E:/PhD Thesis/Write Papers/NV-Quenching/Non-Akaike Paper/figs/models.png>]
+[11 <E:/PhD Thesis/Write Papers/NV-Quenching/Non-Akaike Paper/figs/models.png>]
 
-Package natbib Warning: Empty `thebibliography' environment on input line 216.
+Package natbib Warning: Empty `thebibliography' environment on input line 251.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 221.
-[9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 221.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 256.
+[12]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 256.
  ("E:\PhD Thesis\Write Papers\NV-Quenching\Non-Akaike Paper\NVQuenching.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 221.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 221.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 256.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 256.
 Package rerunfilecheck Info: File `NVQuenching.out' has not changed.
-(rerunfilecheck)             Checksum: 74BC3E4BC17618BCD9446296785F0FDF;803.
+(rerunfilecheck)             Checksum: 0C65B5EE65309C9C2786375885B60923;944.
  ) 
 Here is how much of TeX's memory you used:
- 16811 strings out of 493921
- 315066 string characters out of 3147267
- 356896 words of memory out of 3000000
- 19794 multiletter control sequences out of 15000+200000
+ 16844 strings out of 493921
+ 315707 string characters out of 3147267
+ 351904 words of memory out of 3000000
+ 19813 multiletter control sequences out of 15000+200000
  71680 words of font info for 66 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 38i,11n,45p,1969b,754s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Fil
-es/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
+ 38i,11n,45p,1969b,733s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/M
+iKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
 nc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ma
 thex.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/
@@ -1280,9 +1313,9 @@ gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmri9.pfb><C:/Program Files/MiKTeX
 ublic/lm/lmsy5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy6.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on NVQuenching.pdf (9 pages, 2597229 bytes).
+Output written on NVQuenching.pdf (12 pages, 2542129 bytes).
 PDF statistics:
- 219 PDF objects out of 1000 (max. 8388607)
- 34 named destinations out of 1000 (max. 500000)
- 145 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 256 PDF objects out of 1000 (max. 8388607)
+ 44 named destinations out of 1000 (max. 500000)
+ 189 words of extra memory for PDF output out of 10000 (max. 10000000)
 

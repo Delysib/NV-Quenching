@@ -20,28 +20,22 @@
 
 
 \begin{abstract}
-NVs are cool because they do cool sciency stuff.
-All cool stuff comes from NV-.
-People use 532 excitation to increase charge polarisation so they can optimise cool stuff and neglect NV0.
-They looked at it with only one excitation wavelength at a time. 
-Clearly charge polarisation depends on wavelength.
-So clearly quenching must occur with second wavelength.
-Must understand all of this stuff to intergrate NVs into other systems that use lasers.
+The NV$^-$ charge state is an intensively studied material that has shown a wide range of applications in both Physics and Biology. In contrast the neutral charge state is often neglected by using a single optimised excitation wavelength to minimise it's presence. In many cases once a second probe laser is used in an experiment the fluorescence of the NV centre is dramatically quenched suppressing its interesting optical properties, preventing the NV centres use in applications and systems that require additional laser wavelengths. Through measurements of the photo-physics of the NV centre we observe that this quenching mechanism is mediated through ionisation and recombination process between NV$^0$ and NV$^-$ providing increased channels for non radiative decay from the excited states. By understanding the corresponding quenching mechanisms we aim to mitigate the spin and charge state depolarisation effects in a way to allow the NV centres to be embedded within other optical systems.
 \end{abstract}
 
 \maketitle
 
 \section{Introduction}
 
-The Nitrogen Vacancy (NV) centre is is a point defect consisting of a nitrogen-vacancy lattice pair embedded along the [111] axis of a diamond (???ref1). The NV centre has two stable charge states, the neutral charge state (NV$^0$) and the negatively charged state (NV$^-$), with photo-induced interconversion between these two states (???ref2). The NV$^-$ charge state is an intensively studied material that has shown a wide range of applications in both Physics and Biology due to it's high stability and interesting optical properties. Biologists have used them extensively for biolabelling and imaging of internal biological structures (???ref3 and 4). Meanwhile, physisits have been investigating their use in a wide range of nanoscale sensing and quantum sensing applications(???ref5). By exploiting the quantum mechanical interactions of the defects internal spin state, room temperature quantum effects can be observed in the NV$^-$ centre providing a platform to study a wide variety of quantum manipulation protocols (???ref6). However, these desirable effects rely solely on the properties arising from the NV$^-$ charge state and in most applications the excitation wavelength is chosen to be around 510-540nm, as this region was shown to have the highest charge state polarisation (ref7???). By using a single optimised excitation wavelength the impact of the neutral charge state NV$^0$ could be neglected despite the optimal charge state polarisation limited at $75\%$. \textbf{Summary: Introduce NV, Show that NV- is the important charge state, lead that we neglect NV0 by exciting with 532nm}
+The Nitrogen Vacancy (NV) centre is is a point defect consisting of a nitrogen-vacancy lattice pair embedded along the [111] axis of a diamond (???ref1). The NV centre has two stable charge states, the neutral charge state (NV$^0$) and the negatively charged state (NV$^-$), with photo-induced interconversion between these two states (???ref2). The NV$^-$ charge state is an intensively studied material that has shown a wide range of applications in both Physics and Biology due to it's high stability and interesting optical properties. Biologists have used them extensively for biolabelling and imaging of internal biological structures (???ref3 and 4). Meanwhile, physisits have been investigating their use in a wide range of nanoscale sensing and quantum sensing applications(???ref5). By exploiting the quantum mechanical interactions of the defects internal spin state, room temperature quantum effects can be observed in the NV$^-$ centre providing a platform to study a wide variety of quantum manipulation protocols (???ref6). However, these desirable effects rely solely on the properties arising from the NV$^-$ charge state and in most applications the excitation wavelength is chosen to be around $510-\SI{540}{nm}$, as this region was shown to have the highest charge state polarisation (ref7???). By using a single optimised excitation wavelength the impact of the neutral charge state NV$^0$ is often neglected despite the optimal charge state polarisation being limited at $\approx75\%$. \textbf{Summary: Introduce NV, Show that NV- is the important charge state, lead that we neglect NV0 by exciting with 532nm}
 
-In cases where only the single excitation laser is used the NV centre has been long stated to be extremely robust, with no bleaching or blinking under normal conditions(ref8???). However, in many cases once a second probe laser is used in an experiment the fluorescence of the NV centre is dramatically quenched(ref9???), preventing further applications and systems that require additional laser wavelengths. The quenching of fluorescence has been observed and described by numerous potential mechanisms, including (list here???1). In contrast to many of these mechanisms we are probing in a non resonant continuous-wave regime of a few 10s of milliwatts eliminating many of the above mechanisms that rely transient mechanisms or high intensities fields. In addition, we are collecting the fluorescence of both charge states and do not believe that the NV$^0$ charge state can be neglected in a steady state regime. \textbf{Summary: NV is good when used alone, a second laser field leads to quenching of fluorescence, has been explained by many mechanisms but mostly look at only NV$^-$, NV$^0$ must be playing a role.}
+In cases where only the single excitation laser is used the NV centre has been long stated to be extremely robust, with no bleaching or blinking under normal conditions(ref8???). However, in many cases once a second probe laser is used in an experiment the fluorescence of the NV centre is dramatically quenched(ref9???), preventing the NV centres use in applications and systems that require additional laser wavelengths. The quenching of fluorescence has been observed and described by numerous potential mechanisms, including (list here???1). In contrast to many of these mechanisms we are probing in a non resonant continuous-wave regime of a few 10s of milliwatts eliminating many of the above mechanisms that rely transient mechanisms or high intensities fields. In addition, we are collecting the fluorescence of both charge states and show that the NV$^0$ charge state can be neglected in a steady state regime. \textbf{Summary: NV is good when used alone, a second laser field leads to quenching of fluorescence, has been explained by many mechanisms but mostly look at only NV$^-$, NV$^0$ must be playing a role.}
 
-In this paper we investigate the quenching effects of the NV centre fluorescence under near infra-red (NIR) exposure in order to provide insight into the charge and spin state photo-dynamics. From our analysis we found that the quenching mechanism is driven by the continuous charge state transfer between NV$^0$ and NV$^-$ providing increased channels for non radiative decay from the excited states. By understanding the underlying processes we aim to apply particular initialisation processes to increase the spin and charge state polarisation of the NV centre. This will lead to direct enhancements of applications such as STED like imaging and for enhancing state preparation for NV based quantum technologies.
+In this paper we investigate the quenching effects of the NV centre fluorescence under near infra-red (NIR) exposure in order to provide insight into the charge and spin state photo-dynamics. From our analysis we found that the quenching mechanism is driven by a continuous charge state transfer between NV$^0$ and NV$^-$ providing increased channels for non radiative decay from the excited states. By understanding the underlying processes we aim to find processes to increase the spin and charge state polarisation of the NV centre. This will lead to direct enhancements of applications such as STED like imaging and for enhancing state preparation for NV based quantum technologies.
 \textbf{Summary: Summary of what we aim to do}
 \todo{Should I add examples of further applications and systems that require additional laser wavelengths}
 
-In our experiment, 100nm nanodiamonds are dispersed on a glass coverslip placed on the sample plane of a custom built scanning confocal microscope. The NV centres are pumped with a 532nm continuous wave laser after focusing through a x.xNA, Brand, type immersion objective lens ???3. The 780nm laser is combined and then superimposed with the 532nm laser before the objective lens. The fluorescence is collected through the same objective and sent to either a fibre spectrometer or a fibre coupled APD that collects all wavelengths between $550-\SI{700}{nm}$. A permanent neodymium magnet was placed on a moveable arm above the sample plane so that a large non zero magnetic field could be brought in close proximity to the nanodiamond in order to investigate the effect of mixing the spin state of the NV$^-$ ground states. The setup is shown in Fig. \ref{FigSetup}.
+In our experiment, 100nm nanodiamonds are dispersed on a glass coverslip placed on the sample plane of a custom built scanning confocal microscope. The NV centres are pumped with a $\SI{532}{nm}$ continuous wave laser after focusing through a x.xNA, Brand, type immersion objective lens ???3. The $\SI{785}{nm}$ NIR laser is combined and then superimposed with the 532nm laser before the objective lens. The fluorescence is collected through the same objective and sent to either a fibre spectrometer or a fibre coupled APD that collects all wavelengths between $550-\SI{700}{nm}$. A permanent neodymium magnet was placed on a moveable arm above the sample plane so that a large non zero magnetic field could be brought in close proximity to the nanodiamond in order to investigate the effect of mixing the spin state of the NV$^-$ ground states. The setup is shown in Fig. \ref{FigSetup}.
 
 \begin{figure}[t]
   \centering
@@ -53,21 +47,21 @@ We first examined the spectral response of excited NV centres under NIR illumina
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.4\textwidth]{Spectra.png} 
+  \includegraphics[width=0.4\textwidth]{Spectras.png} 
  \caption{\textbf{Experimental data.} \textbf{a.} This is the data swap a and b???} \label{FigSpectra}
 \end{figure}
 
-Both the fluorescence of NV$^0$ and NV$^-$ can be observed to be decreasing with increased NIR power. Additionally, there does not appear to be a significant charge transfer between the two charge states. Exact charge polarisation cannot be identified from the spectra due to the inability to spectrally separate the two charge states. It is clear however from the spectra that the quenching of fluorescence cannot be explained by simply investigating the negative charge state and neglecting the neutral charge state.
+Both the fluorescence of NV$^0$ and NV$^-$ can be observed to be decreasing with increased NIR power. Additionally, there does not appear to be a significant charge transfer between the two charge states. Exact charge polarisation cannot be identified from the spectra due to the inability to spectrally separate the two charge states. It is clear from the spectra however, that the quenching of fluorescence cannot be explained by simply investigating the negative charge state and neglecting the neutral charge state.
 
-In order to investigate the entire photo-dynamics of the NV centres we used the APD to observe the fluorescence over a much larger parameter space. For each nanodiamond the saturation curve of the NV centre is measured. The power dependence of the fluorescence for the $\SI{785}{nm}$ illumination wavelength is then measured for five powers of the $\SI{532}{nm}$ excitation laser. The neodymium magnet is placed $\approx \SI{0.5}{mm}$ above the sample plane of the confocal microscope in order to mix the spin state of the NV- charge state. The above set of measurements are then repeated to provide more information on the internal spin state of the system. For each nanodiamond we obtain a series of plots that can be observed in figure \ref{FigData}.
+In order to investigate the entire photo-dynamics of the NV centres we used the APD to observe the fluorescence over a much larger parameter space. For each nanodiamond the saturation curve of the NV centre is measured. The power dependence of the fluorescence for the $\SI{785}{nm}$ illumination wavelength is then measured for five powers of the $\SI{532}{nm}$ excitation laser. The neodymium magnet is placed $\approx \SI{0.5}{mm}$ above the sample plane of the confocal microscope in order to mix the spin state of the NV- charge state. The above set of measurements are then repeated to provide more information on the internal spin state of the system. For each nanodiamond investigated we obtain a series of plots that can be observed in figure \ref{FigData}.
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.4\textwidth]{Data2.png} 
+  \includegraphics[width=0.4\textwidth]{DataCurves.png} 
  \caption{\textbf{Experimental data.} \textbf{a.} This is the data swap a and b???} \label{FigData}
 \end{figure}
 
-To determine the intrinsic photophysics of our nanodiamonds we developed an 8 level rate equation model using established physics of the NV centre that incorporates both the ionisation and recombination mechanisms as well as the STED like mechanisms. It is important to note that whether the STED like effect is simply non radiative decay from the excited to ground triplet state ref34??? or is mediated through a new fast decaying dark band ref35??? the mechanisms reduce to identical rate equations. The free parameters of the model were varied in order to determine the most likely photo-dynamics of the system. ??? submodels were investigated and the most likely model was identified by the Akaike information criteria. In the body of this paper only the most likely model selected by the Aikike information criteria is discussed, however, the full analyses of all the potential photo-dynamic models, are discussed in the Appendix. The model identified by the Aikike information criteria indicates that the quenching process occurs through continuous charge state transfer between NV$^0$ and NV$^-$ leading to increased channels for non radiative decay from the excited states of the NV centre. Additionally whilst the model is kept quite general and unconstrained the final fitting parameters of the model are consistent between many NV centres and provide values that are physical and are consistent with measurments observed in the literature. It is important to note that whilst a STED like mechanism can fit the quenching data in some situations, once the internal spin of the system is investigated the analysis for this mechanism is no longer accurate. The energy level structure and fitting parameters for the processes leading to the quenching observed through the ionisation and recombination process is shown in Figure \ref{FigEnergyLevelsNV}.
+To determine the intrinsic photophysics of our nanodiamonds we developed an 8 level rate equation model using established physics of the NV centre that incorporates both the ionisation and recombination mechanisms as well as the STED like mechanisms. Whether the STED like effect is simply non radiative decay from the excited to ground triplet state ref34??? or is mediated through a new fast decaying dark band ref35??? the mechanisms reduce to identical rate equations. The free parameters of the model were varied in order to determine the most likely photo-dynamics of the system. ??? submodels were investigated and the most likely model was identified by the Akaike information criteria. In the body of this paper only the most likely model selected by the Aikike information criteria is discussed, however, the full analyses of all the potential photo-dynamic models, are discussed in the Appendix. The model identified by the Aikike information criteria indicates that the quenching process occurs through continuous charge state transfer between NV$^0$ and NV$^-$ leading to increased channels for non radiative decay from the excited states of the NV centre. Additionally, whilst the model is kept quite general and unconstrained the final fitting parameters of the model are consistent between many NV centres and provide values that are physical and are consistent with measurments observed in the literature. It is important to note that whilst a STED like mechanism can fit the quenching data in some situations, once the internal spin of the system is investigated the analysis for this mechanism is no longer accurate. The energy level structure and fitting parameters for the processes leading to the quenching observed through the ionisation and recombination process is shown in Figure \ref{FigEnergyLevelsNV}.
 
 \begin{figure}[H]
   \centering
@@ -75,10 +69,10 @@ To determine the intrinsic photophysics of our nanodiamonds we developed an 8 le
  \caption{Energy levels of the NV centre.} \label{FigEnergyLevelsNV}
 \end{figure}
 
-The populations of the energy levels can be solved under steady state conditions and the fluorescence intensity is given by the population of each excited state and their fluorescence decay rates,
+The populations of the energy levels can be solved under steady state conditions and the fluorescence intensity is given by the population of each excited state and their corresponding fluorescence decay rates,
 
 \begin{equation}
-\SI{}{F} = \left(\rho_{e^{T}_\pm}\times\Gamma_{e^T_{\pm}g^T_{\pm}} +\rho_{e^{T}_0}\times\Gamma_{e^T_{\pm}g^T_{\pm}}\right)+\left(\rho_{e^Z}\times\Gamma_{e^Zg^Z}\right)\times\sigma,
+\SI{}{F} = \left(\rho_{e^{T}_\pm}\times\Gamma_{e^T_{\pm}g^T_{\pm}} +\rho_{e^{T}_0}\times\Gamma_{e^T_{0}g^T_{0}}\right)+\sigma\left(\rho_{e^Z}\times\Gamma_{e^Zg^Z}\right),
 \label{EqnFluoro}
 \end{equation}
 
@@ -99,12 +93,12 @@ The principle zero-phonon line between the $^3A_2$ and $^3E$ is centred at 637nm
 
 The excited triplet states can also decay to the excited singlet state, the rate from the $m_s=\pm1$ excited triplet state is $2\pi\times9.4\times10^6\SI{}{GHz} = \SI{16.9}{ns}$, whereas the rate from the $m_s=0$ excited triplet state is almost an order of magnitude smaller at $ 2\pi\times1.8\times10^6 \SI{}{GHz} = \SI{88.4}{ns}$ (ref18???). Whilst it not completely understood why there is a large discrepancy between these decay channels it is noteworthy that this discrepancy is what leads to many of the interesting optical properties of the NV centre. It causes a difference in fluorescence intensity between the two excited spin states which in turn leads to a mechanism for an all optical readout of the centres internal spin state. The excited singlet state has a lifetime of $\approx\si{1}{ns}$ (ref19???) and populates the longer lived ground singlet state and it has been shown to emit fluorescence at a ZPL of $\SI{1042}{nm}$ ref20???. The longer lived ground metastable state has a lifetime of $\SI{150}{ns}$ and decays into the ground the triplet spin state ref21???. It was commonly believed that this population decayed only into the $m_s=0$ spin state, however a recently this is being challenged and it has been claimed that the decay into the ground triplet has a spin state is nanodiamond dependant and only 0.5-0.7\% of the electrons decay into the $m_s=0$ ground state ref22???. Our model is consistent with the observation that the singlet state does not decay only into the $m_s=0$ ground state and only $0.7 \pm 0.2\%$ of the electrons decay into the $m_s=0$ ground state.
 
-As opposed to the rigorous study the NV$^-$ charge state has received the $NV^0$ charge state has often been neglected. However we believe in order to study the NV centre as a whole it must be included. We use the established three level model to describe its intrinsic dynamics. The NV$^0$ charge state consists of of a ground doublet $^2E$ and an excited doublet $^2A$ with a ZPL at $\SI{575}{nm} = \SI{2.156}{eV}$.  It can be efficiently excited at most wavelengths below $\SI{675}{nm}$ ref23??? and has a radiative lifetime of $\Gamma_{e^Zg^Z} = 19\times2 \SI{}{ns}$ ref26???. The exact excitation cross section is unknown, however, the ratio of excitation cross sections between NV$^0$ and NV$^-$ can be measured by looking at their relative emission intensities. In addition, since the quantum efficiency of NV$^0$ and NV$^-$ is $\approx 1$ then the ratio of excitation cross sections is given by the ratio of emission cross sections giving $\Gamma_{g^Ze^Z} = \frac{1}{3} \Gamma_{g^Te^T}$ ref25???. Differing from NV$^-$, NV$^0$ does not have detectable magnetic resonances associated with its degenerate spin doublet ground and excited states ref24???. Only a few percent of the fluorescence is emitted in the ZPL, whereas most fluorescence appears in the phonon side bands between 550 and 750nm. However, no ODMR or optical readout of this metastable quartet have been measured and it is expected to have negligible impact on the photo-physics of the NV centre and as such has been neglected from our analysis. 
+As opposed to the rigorous study the NV$^-$ charge state has received, the $NV^0$ charge state has often been neglected. However we believe in order to study the NV centre as a whole it must be included. We use the established three level model to describe its intrinsic dynamics. The NV$^0$ charge state consists of of a ground doublet $^2E$ and an excited doublet $^2A$ with a ZPL at $\SI{575}{nm} = \SI{2.156}{eV}$.  It can be efficiently excited at most wavelengths below $\SI{675}{nm}$ ref23??? and has a radiative lifetime of $\Gamma_{e^Zg^Z} = 19\times2 \SI{}{ns}$ ref26???. The exact excitation cross section is unknown, however, the ratio of excitation cross sections between NV$^0$ and NV$^-$ can be measured by looking at their relative emission intensities. In addition, since the quantum efficiency of NV$^0$ and NV$^-$ is $\approx 1$ then the ratio of excitation cross sections is given by the ratio of emission cross sections giving $\Gamma_{g^Ze^Z} = \frac{1}{3} \Gamma_{g^Te^T}$ ref25???. Differing from NV$^-$, NV$^0$ does not have detectable magnetic resonances associated with its degenerate spin doublet ground and excited states ref24???. Only a few percent of the fluorescence is emitted in the ZPL, whereas most fluorescence appears in the phonon side bands between 550 and 750nm. However, no ODMR or optical readout of this metastable quartet have been measured and it is expected to have negligible impact on the photo-physics of the NV centre and as such has been neglected from our analysis. 
 
 \todo{I think I doubled this value because NV- lifetimes were doubled in ND as compared to bulk and the lifetime I found was in Bulk diamond. Either need to find value for ND's or argue that it should also increase the same way as NV- did...}
 
 \subsection{Ionisation \& Recombination}
-To convert between the two charge states we need to examine both the Ionisation process from NV$^-$ to NV$^0$ and the recombination process from NV$^0$ to NV$^-$. The desirable effects of the NV centre rely solely on the properties arising from the NV$^-$ charge state and as a result a standard $\approx \SI{532}{nm}$ excitation laser used in NV centre applications is chosen so that it produces the highest charge state polarisation in an effort to optimise the effect and allow any effects due to the $NV^0$ charge state to be neglected (ref7???). However, an additional laser is going to alter this maximised charge state polarisation. 
+To convert between the two charge states we need to examine both the Ionisation process from NV$^-$ to NV$^0$ and the recombination process from NV$^0$ to NV$^-$. The desirable effects of the NV centre rely solely on the properties arising from the NV$^-$ charge state and as a result a standard $\approx \SI{532}{nm}$ excitation laser used in NV centre applications is chosen so that it produces the highest charge state polarisation in an effort to optimise the effect and allow any effects due to the $NV^0$ charge state to be neglected (ref7???). However we believe, any additional laser is going to alter this maximised charge state polarisation under continuous wave excitation. 
 
 \subsection{Ionisation Process}
 Ionisation from NV- to NV0 occurs in a two step process as shown in Fig. \ref{FigChargeConversiona}.
@@ -127,7 +121,14 @@ The recombination process from NV$^0$ to NV$^-$ also occurs in a two step proces
  \caption{\textbf{Recombination Processes.} \textbf{a,} Recombination from NV$^-$ to NV$^0$ electron view \textbf{b,} Recombination pathways traditional view.} \label{FigChargeConversionb}
 \end{figure}
 
-First a photon must excite an electron in the NV$^0$ charge state into the excited $^2A$ state. A second photon can then be excited from the valence band into the $^2E$ ground state which provides the extra electron to the centre converting it into the NV$^-$ charge state in its ground state configuration (ref29???). Currently there is no evidence to indicate which spin state the NV$^-$ charge state will now be populated in, however it has recently been observed that the ionisation, recombination process is a spin depolarising process indicating a non negligible component in the $m_s=\pm1$ spin state ref30???. In our analysis we observe that the rate of recombination from NV$^0$ to NV$^-$ is $180\pm\SI{90}{MHz/mW}$ at 532nm and $18\pm\SI{2}{MHz/mW}$ at 785nm. Additionally the model indicates that this process is spin depolarising such that the ratio into the $m_s=0$ ground state of the NV$^0$ is $49.0\pm0.06\%$ for both laser wavelengths.
+First a photon must excite an electron in the NV$^0$ charge state into the excited $^2A$ state. A second photon can then be excited from the valence band into the $^2E$ ground state which provides the extra electron to the centre converting it into the NV$^-$ charge state in its ground state configuration (ref29???). Currently there is no evidence to indicate which spin state the NV$^-$ charge state will now be populated in, however it has recently been observed that the ionisation, recombination process is a spin depolarising process indicating a non negligible component in the $m_s=\pm1$ spin state ref30???. In our analysis we observe that the rate of recombination from NV$^0$ to NV$^-$ is $180\pm\SI{90}{MHz/mW}$ at 532nm and $18\pm\SI{2}{MHz/mW}$ at 785nm. Additionally the model indicates that this process is spin depolarising such that the ratio into the $m_s=0$ ground state of the NV$^0$ is $49.0\pm6\%$ for both laser wavelengths. 
+
+As a result of the continuous ionisation and recombination processes the NV centre is constantly being driven non radiatively into the ground state of the alternate charge state. The non radiative driving of the charge state is dramatically increased by the $\SI{785}{nm}$ NIR laser. Whilst we cannot confirm the ionisation and recombination driving rates for the $\SI{785}{nm}$ NIR laser the driving rates for the $\SI{532}{nm}$ laser are consistent with the charge state transfer rates for single NV centres in nanodiamonds ref???. Unfortunately, with this combination of wavelengths there is no obvious mechanism to satisfactorily increase either the charge state or spin state of the NV centre. Whilst applying a magnet leads to an increase in charge state this also produces a increase in spin depolarisation diminishing the interesting spin properties of the NV centre. We believe that by targeting each process with a different wavelength in a way that the NV centre has a large recombination rate and low ionisation rate one could increase the charge state polarisation as well as the spin state polarisation.
+
+In order to maximise the STED like quenching observed in NV centres for high resolution microscopy, the quenching laser would ideally be one that maximises the ionisation and recombination rates. This can be determined by observing the quenching of a nanodiamond as a function of quenching laser wavelength. Additionally, there may be shorter wavelengths that satisfy the ionisation and recombination criteria which provides a direct enhancement to the super resolution due to the shorter wavelength. Additionally the excitation laser should be kept at low intensities since the quenching rate is inhibited at higher excitation intensities.
+
+These results provide further insight into the properties and photo-physics of the NV centre. A logical next step towards understanding the ionisation and recombination processes is to investigate their wavelength dependence and investigating the effect of the local environment on these processes. For example the strain on the crystal and density of nitrogen in the crystal could highly vary the ionisation and recombination rates.
+
 
 \section*{Acknowledgements}
 
@@ -142,6 +143,35 @@ First a photon must excite an electron in the NV$^0$ charge state into the excit
 
 %
 \appendix
+\section{Appendix}
+
+\section{Other Figures}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.4\textwidth]{SpinData.png} 
+ \caption{Blah} 
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.4\textwidth]{IonAndRecom.jpg} 
+ \caption{Blah} 
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.4\textwidth]{IonRateCompare.png} 
+ \caption{Blah} 
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.4\textwidth]{ChargeData.png} 
+ \caption{Blah} 
+\end{figure}
+
+
 
 \section{model}
 \begin{eqnarray}
@@ -196,12 +226,17 @@ In each of the above mechanisms the quenching of the fluorescence from the NV$^-
 
 \todo{Maybe add: In addition the dipole strength of the excited $m_s=\pm1$ state in nanodiamonds containing a collections of NV centres is $\approx 10\times$ that of the dipole strength of the excited $m_s=0$ state. Find Reference}
 
+One could use only green for high resolution microscopy for NV centres in nanodiamonds. Smaller wavelength super resolution.
 
 \section{Akaike Information Criteria}
 From the minimisation value we can perform an Akaike.
 Blah blah statistical analysis of models and assumptions.
 top model is blah, investigate it.
 %
+
+\section{}
+Ionisation not sensitive to environment (Based on band gap between NV- excited and conduction band)
+Recom highly sensitive to environment. (Number of singlet nitrogen in ND alos ionisation is out to ~7880 nm in nanodiamonds but not in bulk.)
 
 
 
