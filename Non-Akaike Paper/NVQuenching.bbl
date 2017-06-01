@@ -1,15 +1,66 @@
-\begin{thebibliography}{0}
-\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
-\expandafter\ifx\csname bibnamefont\endcsname\relax
-  \def\bibnamefont#1{#1}\fi
-\expandafter\ifx\csname bibfnamefont\endcsname\relax
-  \def\bibfnamefont#1{#1}\fi
-\expandafter\ifx\csname citenamefont\endcsname\relax
-  \def\citenamefont#1{#1}\fi
-\expandafter\ifx\csname url\endcsname\relax
-  \def\url#1{\texttt{#1}}\fi
-\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
-\providecommand{\bibinfo}[2]{#2}
-\providecommand{\eprint}[2][]{\url{#2}}
+\begin{thebibliography}{10}
+
+\bibitem{davies_optical_1976}
+G.~Davies and M.~F. Hamer, ``Optical {Studies} of the 1.945 {eV} {Vibronic}
+  {Band} in {Diamond},'' {\em Proceedings of the Royal Society of London A:
+  Mathematical, Physical and Engineering Sciences}, vol.~348, pp.~285--298,
+  Feb. 1976.
+
+\bibitem{siyushev_optically_2013}
+P.~Siyushev, H.~Pinto, M.~Vörös, A.~Gali, F.~Jelezko, and J.~Wrachtrup,
+  ``Optically {Controlled} {Switching} of the {Charge} {State} of a {Single}
+  {Nitrogen}-{Vacancy} {Center} in {Diamond} at {Cryogenic} {Temperatures},''
+  {\em Physical Review Letters}, vol.~110, p.~167402, Apr. 2013.
+
+\bibitem{jelezko_single_2006}
+F.~Jelezko and J.~Wrachtrup, ``Single defect centres in diamond: {A} review,''
+  {\em physica status solidi (a)}, vol.~203, pp.~3207--3225, Oct. 2006.
+
+\bibitem{aslam_photo-induced_2013}
+N.~Aslam, G.~Waldherr, P.~Neumann, F.~Jelezko, and J.~Wrachtrup,
+  ``Photo-induced ionization dynamics of the nitrogen vacancy defect in diamond
+  investigated by single-shot charge state detection,'' {\em New Journal of
+  Physics}, vol.~15, no.~1, p.~013064, 2013.
+
+\bibitem{schirhagl_nitrogen-vacancy_2014}
+R.~Schirhagl, K.~Chang, M.~Loretz, and C.~L. Degen, ``Nitrogen-vacancy centers
+  in diamond: nanoscale sensors for physics and biology,'' {\em Annual Review
+  of Physical Chemistry}, vol.~65, pp.~83--105, 2014.
+
+\bibitem{chapman_anomalous_2012}
+R.~Chapman and T.~Plakhotnik, ``Anomalous saturation effects due to optical
+  spin depolarization in nitrogen-vacancy centers in diamond nanocrystals,''
+  {\em Physical Review B}, vol.~86, p.~045204, July 2012.
+
+\bibitem{noauthor_nitrogen-vacancy_nodate}
+``Nitrogen-vacancy centers in nano-diamond reversibly decrease the luminescence
+  quantum yield under strong pulsed-laser irradiation - {IOPscience}.''
+
+\bibitem{lai_quenching_2013}
+N.~D. Lai, O.~Faklaris, D.~Zheng, V.~Jacques, H.-C. Chang, J.-F. Roch, and
+  F.~Treussart, ``Quenching nitrogen–vacancy center photoluminescence with an
+  infrared pulsed laser,'' {\em New Journal of Physics}, vol.~15, no.~3,
+  p.~033030, 2013.
+
+\bibitem{geiselmann_fast_2013}
+M.~Geiselmann, R.~Marty, F.~J. García~de Abajo, and R.~Quidant, ``Fast optical
+  modulation of the fluorescence from a single nitrogen-vacancy centre,'' {\em
+  Nature Physics}, vol.~9, pp.~785--789, Dec. 2013.
+
+\bibitem{noauthor_stimulated_nodate}
+``Stimulated {Emission} {Depletion} {Microscopy} {Resolves} {Individual}
+  {Nitrogen} {Vacancy} {Centers} in {Diamond} {Nanocrystals} - {ACS} {Nano}
+  ({ACS} {Publications}).''
+
+\bibitem{doherty_nitrogen-vacancy_2013}
+M.~W. Doherty, N.~B. Manson, P.~Delaney, F.~Jelezko, J.~Wrachtrup, and L.~C.~L.
+  Hollenberg, ``The nitrogen-vacancy colour centre in diamond,'' {\em Physics
+  Reports}, vol.~528, pp.~1--45, July 2013.
+
+\bibitem{jarmola_temperature-_2012}
+A.~Jarmola, V.~M. Acosta, K.~Jensen, S.~Chemerisov, and D.~Budker,
+  ``Temperature- and {Magnetic}-{Field}-{Dependent} {Longitudinal} {Spin}
+  {Relaxation} in {Nitrogen}-{Vacancy} {Ensembles} in {Diamond},'' {\em
+  Physical Review Letters}, vol.~108, p.~197601, May 2012.
 
 \end{thebibliography}
